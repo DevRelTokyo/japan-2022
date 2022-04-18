@@ -1,0 +1,39 @@
+
+<section id="speakers-section" class="organizers-section section">
+	<div class="container">
+		<h3 class="section-heading text-center mb-3">主催者</h3>
+		<div class="section-intro text-center single-col-max mx-auto mb-5">
+			現在、イベント主催者やベニューオーガナイザーを募集中です！ぜひ一緒にDevRel/Japan CONFERENCEを運営しましょう！
+		</div>
+		<div class="row">
+			{% for organizer in site.data.organizers %}
+				<div class="col-6 col-lg-3 mb-4">
+					<div class="card rounded-0">
+						<a href="#" data-bs-toggle="modal"><img src="{{ site.baseurl }}/assets/images/organizers/{{organizer.id}}.jpg" class="card-img-top rounded-0" alt=""></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2" style="min-height: 2.5em;">{{ organizer.name }}</h5>
+							<div class="card-text mb-3" style="min-height: 4.5em;">
+								<div class="meta">{{ organizer.title }}　</div>
+								<div class="meta">{{ organizer.company }}　</div>
+							</div><!--//card-text-->
+						</div><!--//card-->
+						<div class="card-footer text-muted">
+							<ul class="social-list list-inline mb-0">
+								{% if organizer.twitter != "" %}<li class="list-inline-item"><a href="{{ organizer.twitter }}"><i class="fab fa-twitter fa-fw"></i></a></li>{% endif%}
+								{% if organizer.facebook != "" %}<li class="list-inline-item"><a href="{{ organizer.facebook }}"><i class="fab fa-facebook fa-fw"></i></a></li>{% endif%}
+								{% if organizer.linkedin != "" %}<li class="list-inline-item"><a href="{{ organizer.linkedin }}"><i class="fab fa-linkedin fa-fw"></i></a></li>{% endif%}
+								{% if organizer.github != "" %}<li class="list-inline-item"><a href="{{ organizer.github }}"><i class="fab fa-github fa-fw"></i></a></li>{% endif%}
+								{% if organizer.url != "" %}<li class="list-inline-item"><a href="{{ organizer.url }}"><i class="fas fa-globe fa-fw"></i></a></li>{% endif%}
+							</ul><!--//social-list-->
+						</div>
+					</div><!--//card-->
+				</div><!--//col-->
+			{% endfor %}
+		</div><!--//row-->
+		<div class="speakers-cta text-center py-3">
+			<!-- <a class="btn btn-primary btn-lg" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devconf-free-bootstrap-4-conference-template-for-tech-conferences-and-events/" target="_blank">Get Tickets</a> -->
+			<a class="btn btn-secondary btn-lg" href="mailto:hi@devrel.tokyo" target="_blank">運営に参加する</a>
+		</div>
+	</div><!--//container-->
+	
+</section><!--//speakers-section-->
