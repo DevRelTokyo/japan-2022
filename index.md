@@ -5,6 +5,13 @@
 layout: home
 ---
 
-<div class="container">
-	<hr>
-</div>
+{% include hero.html %}
+{% include stats.html %}
+{% include about.html %}
+
+{% include speakers.html %}
+{% include schedule.html %}
+{% include tickets.html %}
+{% include venue.html %}
+{% include sponsors.html %}
+{% include organizers.html %}
