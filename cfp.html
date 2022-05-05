@@ -1,7 +1,119 @@
 ---
-layout: page
-title: プロポーザルを提出する
+layout: home
 permalink: /cfp/
 ---
 
-
+<div style="background-color: black; padding-top: 3em;">&nbsp;</div>
+<div class="container">
+	<div class="row justify-content-md-center">
+		<div class="col col-md-10">
+			<h1>プロポーザルを提出する</h1>
+			<p>DevRel/Japan CONFERENCE 2022はすべてのセッションがプロポーザルによって選考されます。本カンファレンスは1トラックであり、幅広い参加者に楽しんでもらえるように、初級者向けから上級者向けまで幅広いプロポーザルを求めています。</p>
+			<h2>タイムスケジュール予定</h2>
+			<ul>
+				<li>8月5日 19〜22時：初級者向け</li>
+				<li>8月6日 13〜15時：中級者向け</li>
+				<li>8月6日 15〜18時：上級者向け</li>
+			</ul>
+			<h2>望ましいプロポーザル</h2>
+			<p>本カンファレンスでは以下のようなプロポーザルが求められています。あくまでも一例です、皆さんの素敵な経験をぜひお寄せください！</p>
+			<ul>
+				<li>初級者向け
+					<ul>
+						<li>DevRelとは？</li>
+						<li>DevRel関連職に就いた経験・キャリア</li>
+						<li>コミュニティ活動をはじめた経験</li>
+						<li>その他</li>
+					</ul>
+				</li>
+				<li>中級者向け
+					<ul>
+						<li>コミュニティ運営</li>
+						<li>経営層の理解</li>
+						<li>プレゼンテーションテクニック</li>
+						<li>ドキュメンテーションテクニック</li>
+						<li>その他</li>
+					</ul>
+				</li>
+				<li>上級者向け
+					<ul>
+						<li>評価・KPI</li>
+						<li>DevRel組織の構築やマネージメント</li>
+						<li>より深いDevRelのテクニック</li>
+						<li>その他</li>
+					</ul>
+				</li>
+			</ul>
+			<h2>注意点</h2>
+			<ul>
+				<li>プロポーザルは1人複数送信できます</li>
+				<li>プロポーザル編集用のURLはプロポーザル提出後、メールにてご連絡します</li>
+			</ul>
+		</div>
+	</div>
+	<div class="row justify-content-md-center">
+		<div class="col col-md-10">
+			<form id="proposal">
+				<div class="mb-3">
+					<label for="exampleInputEmail1" class="form-label">お名前</label>
+					<input type="text" name="name" class="form-control" aria-describedby="emailHelp" data-save="1">
+					<div id="emailHelp" class="form-text">日本語で記述してください</div>
+				</div>
+				<div class="mb-3">
+					<label for="exampleInputEmail1" class="form-label">メールアドレス</label>
+					<input type="email" name="email" class="form-control" aria-describedby="emailHelp" data-save="1">
+				</div>
+				<div class="mb-3">
+					<label for="exampleInputEmail1" class="form-label">会社名・組織名</label>
+					<input type="text" name="company" class="form-control" aria-describedby="emailHelp" data-save="1">
+				</div>
+				<div class="mb-3">
+					<label for="exampleInputEmail1" class="form-label">役職・タイトル・肩書き</label>
+					<input type="text" name="position" class="form-control" aria-describedby="emailHelp" data-save="1">
+				</div>
+				<div class="mb-3">
+					<label for="exampleFormControlTextarea1" class="form-label">掲載して良いソーシャル情報</label>
+					<textarea class="form-control" name="social" rows="3" data-save="1"></textarea>
+					<div id="emailHelp" class="form-text">1行に1つ記載してください（企業のものは不可）</div>
+				</div>
+				<div class="mb-3">
+					<label for="exampleInputEmail1" class="form-label">プロポーザルのタイトル</label>
+					<input type="text" name="title" class="form-control" aria-describedby="emailHelp" data-save="2">
+				</div>
+				<div class="mb-3">
+					<label for="exampleFormControlTextarea1" class="form-label">概要</label>
+					<textarea class="form-control" name="summary" rows="3" data-save="2"></textarea>
+				</div>
+				<div class="mb-3">
+					<label for="exampleFormControlTextarea1" class="form-label">詳細</label>
+					<textarea class="form-control" name="detail" rows="10" data-save="2"></textarea>
+				</div>
+				<div class="mb-3">
+					<label for="exampleFormControlTextarea1" class="form-label">レベル</label>
+					<select class="form-select" name="level" aria-label="Default select example" data-save="2">
+						<option selected>レベルを選択してください</option>
+						<option value="初級者向け">初級者向け</option>
+						<option value="中級者向け">中級者向け</option>
+						<option value="上級者向け">上級者向け</option>
+					</select>
+				</div>
+				<div class="mb-3 form-check">
+					<input type="checkbox" name="archive" class="form-check-input" value="on" required>
+					<label class="form-check-label" for="exampleCheck1">本セッションはアーカイブされ、オンライン公開されることを承諾します</label>
+				</div>
+				<div class="mb-3 form-check">
+					<input type="checkbox" name="person" class="form-check-input" value="on" required>
+					<label class="form-check-label" for="exampleCheck1">登壇は1セッション1名であることを承諾します</label>
+				</div>
+				<div class="mb-3 form-check">
+					<input type="checkbox" name="term" class="form-check-input" value="on" required>
+					<label class="form-check-label" for="exampleCheck1"><a href="{{ site.baseurl }}/term/" target="_blank">行動規範</a>を読み、どのようなハラスメントにも抵触しないことを保証します</label>
+				</div>
+				<div class="row justify-content-md-center">
+					<button type="submit" class="btn btn-primary">送信する</button>
+				</div>
+				<br /><br />
+			</form>
+		</div>
+	</div>
+</div>
