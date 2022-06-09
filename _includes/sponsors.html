@@ -11,9 +11,22 @@
 			</p>
 		</div>
 		<div class="row logos justify-content-center">
-			<!--
-			<div class="logo-item col-6 col-md-4 col-lg-2"><img src="{{ site.baseurl }}/assets/images/logos/logo-1.svg" alt=""></div>
-			-->
+			{% for sponsor in site.data.sponsors | where: 'type', 'ゴールド' %}
+				<div class="logo-item col-4">
+					<div class="row">
+						<div class="col-12">
+							<a href="{{ sponsor.url }}">
+								<img src="{{ site.baseurl }}/assets/images/sponsors/{{ sponsor.id }}.png" alt="">
+							</a>
+						</div>
+						<div class="col-12 text-center">
+							<h4>
+								<a href="{{ sponsor.url }}">{{ sponsor.name }}</a>
+							</h4>
+						</div>
+					</div>
+				</div>
+			{% endfor %}
 		</div><!--//row-->
 		<div class="sponsors-cta text-center pt-5"><a class="btn-primary btn btn-lg" href="mailto:hi@devrel.tokyo">スポンサー問い合わせ</a></div>
 	</div><!--//container-->
