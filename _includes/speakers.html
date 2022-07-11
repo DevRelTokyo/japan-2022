@@ -2,30 +2,50 @@
 <section id="speakers-section" class="speakers-section section">
 	<div class="container">
 		<h3 class="section-heading text-center mb-3">スピーカー</h3>
-		{% comment %}
 		<div class="row">
-			<div class="col-6 col-lg-3 mb-4">
-				<div class="card rounded-0">
-					<a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><img src="{{ site.baseurl }}/assets/images/speakers/speaker-1.jpg" class="card-img-top rounded-0" alt=""></a>
-					<div class="card-body">
-						<h5 class="card-title mb-2">James Doe</h5>
-						<div class="card-text mb-3">
-							<div class="meta">Senior Software Developer</div>
-							<div class="meta">Angular Core Team</div>
-						</div><!--//card-text-->
-						<a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1">Read more &rarr;</a>
+			{% for speaker in site.data.speakers %}
+				{% include modal-speaker.html speaker=speaker %}
+				<div class="col-6 col-lg-3 mb-4">
+					<div class="card rounded-0">
+						<a href="#modal-speaker-{{ speaker.id }}" data-bs-toggle="modal" data-bs-target="#modal-speaker-{{ speaker.id }}">
+							<img src="{{ site.baseurl }}/assets/images/speakers/{{ speaker.id }}.jpg" class="card-img-top rounded-0" alt="">
+						</a>
+						<div class="card-body">
+							<h5 class="card-title mb-2">{{ speaker.name }}</h5>
+							<div class="card-text mb-3">
+								<div class="meta">{{ speaker.company }}</div>
+								<div class="meta">{{ speaker.title }}</div>
+							</div><!--//card-text-->
+							<a href="#modal-speaker-{{ speaker.id }}" data-bs-toggle="modal" data-bs-target="#modal-speaker-{{ speaker.id }}">詳しく &rarr;</a>
+						</div><!--//card-->
+						<div class="card-footer text-muted">
+							<ul class="social-list list-inline mb-0">
+								{% if speaker.twitter != '' %}
+									<li class="list-inline-item"><a  href="{{ speaker.twitter }}" target="_blank">
+										<i class="fab fa-twitter fa-fw"></i></a>
+									</li>
+								{% endif %}
+								{% if speaker.linkedin != '' %}
+									<li class="list-inline-item"><a  href="{{ speaker.linkedin }}" target="_blank">
+										<i class="fab fa-linkedin-in fa-fw"></i></a>
+									</li>
+								{% endif %}
+								{% if speaker.github != '' %}
+									<li class="list-inline-item"><a  href="{{ speaker.github }}" target="_blank">
+										<i class="fab fa-github fa-fw"></i></a>
+									</li>
+								{% endif %}
+								{% if speaker.web != '' %}
+									<li class="list-inline-item"><a  href="{{ speaker.web }}" target="_blank">
+										<i class="fas fa-globe"></i></a>
+									</li>
+								{% endif %}
+							</ul><!--//social-list-->
+						</div>
 					</div><!--//card-->
-					<div class="card-footer text-muted">
-						<ul class="social-list list-inline mb-0">
-							<li class="list-inline-item"><a  href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
-							<li class="list-inline-item"><a  href="#"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
-							<li class="list-inline-item"><a  href="#"><i class="fab fa-github fa-fw"></i></a></li>
-						</ul><!--//social-list-->
-					</div>
-				</div><!--//card-->
-			</div><!--//col-->
-		</div><!--//row-->
-		{% endcomment %}
+				</div><!--//col-->
+			{% endfor %}
+		</div>
 	</div><!--//container-->
 	
 </section><!--//speakers-section-->
