@@ -9,7 +9,8 @@
     "facebook": "",
     "web": "",
     "linkedin": "",
-    "github": ""
+    "github": "",
+    "instagram": ""
   },
   {
     "id": "hideki",
@@ -21,7 +22,8 @@
     "facebook": "https://www.facebook.com/hideki.ojima",
     "web": "",
     "linkedin": "",
-    "github": ""
+    "github": "",
+    "instagram": ""
   },
   {
     "id": "nick",
@@ -33,7 +35,8 @@
     "facebook": "",
     "web": "https://qiita.com/TakeshiNickOsanai",
     "linkedin": "",
-    "github": ""
+    "github": "",
+    "instagram": ""
   },
   {
     "id": "simon",
@@ -45,7 +48,8 @@
     "facebook": "",
     "web": "",
     "linkedin": "",
-    "github": ""
+    "github": "",
+    "instagram": ""
   },
   {
     "id": "shotaro",
@@ -57,7 +61,8 @@
     "facebook": "https://www.facebook.com/shosuz/ ",
     "web": "",
     "linkedin": "https://www.linkedin.com/in/shotaro-suzuki-5ab0b719/",
-    "github": ""
+    "github": "",
+    "instagram": ""
   },
   {
     "id": "daizen",
@@ -69,7 +74,8 @@
     "facebook": "",
     "web": "",
     "linkedin": "https://www.linkedin.com/in/daizenikehara/",
-    "github": ""
+    "github": "",
+    "instagram": ""
   },
   {
     "id": "nagai",
@@ -81,7 +87,8 @@
     "facebook": "",
     "web": "",
     "linkedin": "",
-    "github": ""
+    "github": "",
+    "instagram": ""
   },
   {
     "id": "gyori",
@@ -93,7 +100,8 @@
     "facebook": "https://www.facebook.com/gyori.n",
     "web": "",
     "linkedin": "",
-    "github": "https://github.com/Gyori"
+    "github": "https://github.com/Gyori",
+    "instagram": ""
   },
   {
     "id": "bb",
@@ -105,7 +113,8 @@
     "facebook": "https://www.facebook.com/ryotkbb/",
     "web": "",
     "linkedin": "https://www.linkedin.com/in/ryotkbb/",
-    "github": ""
+    "github": "",
+    "instagram": ""
   },
   {
     "id": "wataru",
@@ -117,7 +126,8 @@
     "facebook": "https://www.facebook.com/wyamazak",
     "web": "",
     "linkedin": "https://www.linkedin.com/in/wyamazak/",
-    "github": ""
+    "github": "",
+    "instagram": ""
   },
   {
     "id": "funaki",
@@ -129,7 +139,8 @@
     "facebook": "",
     "web": "",
     "linkedin": "https://www.linkedin.com/in/mfunaki/",
-    "github": ""
+    "github": "",
+    "instagram": ""
   },
   {
     "id": "sasaki",
@@ -141,7 +152,8 @@
     "facebook": "",
     "web": "",
     "linkedin": "",
-    "github": ""
+    "github": "",
+    "instagram": ""
   },
   {
     "id": "terada",
@@ -153,6 +165,124 @@
     "facebook": "",
     "web": "",
     "linkedin": "",
-    "github": ""
+    "github": "",
+    "instagram": ""
+  },
+  {
+    "id": "hosaka",
+    "company": "そそる株式会社",
+    "name": "ほさかなお",
+    "title": "イラストレーター、漫画家",
+    "profile": "ほさかなお\n1996年東京都生まれ。\n企業でUIデザイナーを経験後フリーランスとなり、バレットプレスやworkship magazineなどのWebメディアに漫画を連載。書籍のイラストなども担当。その他にも、情報教科書カット監修、プログラミング教材制作など、ITリテラシーを活かしたイラストレーターとして活動中。また、20代でありながらレトロカルチャーやロストテクノロジーを追求している。 \n\n- 【workship magazine】 [https://goworkship.com/magazine/author/hosakanao/](https://goworkship.com/magazine/author/hosakanao/)\n- 【valed.press】[https://valed.press/tag/kathakatago-no-shusu/](https://valed.press/tag/kathakatago-no-shusu/)\n- 【書籍】[https://gihyo.jp/book/2021/978-4-297-11892-1](https://gihyo.jp/book/2021/978-4-297-11892-1)",
+    "twitter": "",
+    "facebook": "",
+    "web": "",
+    "linkedin": "",
+    "github": "",
+    "instagram": ""
+  },
+  {
+    "id": "chomado",
+    "company": "Microsoft",
+    "name": "千代田まどか (ちょまど)",
+    "title": "Cloud Developer Advocate",
+    "profile": "ITエンジニア兼マンガ家。Twitter (@chomado) ではフォロワー約 10 万人。大学(英文科)を卒業後、新卒で入った大手 SIer を (プログラミングする機会が無かったため) 3ヶ月で辞め、翌週モバイルアプリ開発者としてスタートアップに転職。現在マイクロソフト米国本社チームで Developer Relations の仕事をしている。マンガ家としての作品は『はしれ！コード学園』や『マンガでわかる外国人との働き方』、2021年内閣サイバーセキュリティセンター『ラブライブ！サンシャイン!!』コラボ公式パンフレットを描いたりした。",
+    "twitter": "https://twitter.com/chomado",
+    "facebook": "",
+    "web": "",
+    "linkedin": "",
+    "github": "",
+    "instagram": "https://www.instagram.com/chomado/"
+  },
+  {
+    "id": "llminatoll",
+    "company": "フリーランス",
+    "name": "湊川あい",
+    "title": "IT漫画家",
+    "profile": "IT漫画家。マンガと図解で、技術をわかりやすく伝えることが好き。\n著書『わかばちゃんと学ぶ』シリーズが発売中のほか、マンガでわかるGit・マンガでわかるDocker・マンガでわかるRubyといった分野横断的なコンテンツを展開している。",
+    "twitter": "https://twitter.com/llminatoll",
+    "facebook": "",
+    "web": "https://note.com/llminatoll",
+    "linkedin": "",
+    "github": "",
+    "instagram": ""
+  },
+  {
+    "id": "yugoes1021",
+    "company": "フリーランス (屋号：PBI Kingdom)",
+    "name": "清水 優吾",
+    "title": "Power BI 王子 (Power BI MVP)",
+    "profile": "大学卒業後、未経験から .NET 系開発者としてソフトハウス → ITコンサルティング会社 → フリーランス → メーカー系SIer を経験。テクニカルアーキテクト。2022 年 7 月からフリーランスとして活動中。\n2017 年 2 月に Microsoft MVP for Data Platform - Power BI を初受賞 (現在 6 回更新中)。Power BI 王子として認知されている。\n\n2021 年 9 月、「Microsoft Power BI入門」(翔泳社)を出版。\n\n最近の仕事は Power BI をエンドユーザーへ訴求 (レクチャー、研修、コンサルティング等) すること。コミュニティ活動と仕事の両面で行っている。",
+    "twitter": "https://twitter.com/yugoes1021",
+    "facebook": "https://www.facebook.com/yugoes1021",
+    "web": "",
+    "linkedin": "https://www.linkedin.com/in/yugoes1021/",
+    "github": "",
+    "instagram": ""
+  },
+  {
+    "id": "kitazaki",
+    "company": "IoTLT放送部",
+    "name": "野良ハック（ざっきー）",
+    "title": "",
+    "profile": "趣味でモノづくり活動やIoTLTコミュニティで放送部活動を行なっています。",
+    "twitter": "https://twitter.com/Zakkiea",
+    "facebook": "https://www.facebook.com/ayachika.kitazaki",
+    "web": "",
+    "linkedin": "",
+    "github": "",
+    "instagram": ""
+  },
+  {
+    "id": "shindoy",
+    "company": "天神放送局",
+    "name": "新藤洋介",
+    "title": "",
+    "profile": "シリコンバレーITスタートアップの日本市場立ち上げを数社歴任し、2020年ライブ配信ユニット「天神放送局」を結成。200件を超えるコミュニティー向けライブ配信イベントに関わる。オンラインでのコミュニケーションのあり方について日々、考えを巡らせている。",
+    "twitter": "https://twitter.com/shindoy",
+    "facebook": "",
+    "web": "",
+    "linkedin": "",
+    "github": "",
+    "instagram": ""
+  },
+  {
+    "id": "htakei",
+    "company": "ヤフー株式会社",
+    "name": "武居 秀和",
+    "title": "",
+    "profile": "クリエイターと共に技術を楽しむイベントである「Hack Day」を2007年に立ち上げ、以来、社内外のクリエイターコミュニティ形成に従事。 2018年 Developer Relations 組織の立ち上げからは、ヤフー主催のコミュニティ活動全体の責任者。2019年からは、Developer Relations 施策全体の統括を担当。",
+    "twitter": "https://twitter.com/takewick",
+    "facebook": "",
+    "web": "",
+    "linkedin": "",
+    "github": "",
+    "instagram": ""
+  },
+  {
+    "id": "terao",
+    "company": "ソフトバンク株式会社",
+    "name": "寺尾 英作",
+    "title": "技術マーケティング担当",
+    "profile": "ソフトバンクで技術情報のアウトプットを推進する技術マーケティングを担当。\n社外向け勉強会 SB Tech Night ( https://sbtechnight.connpass.com/ ) 、社内向け勉強会 テクシバ、テックブログ クラウドテクノロジーブログ ( https://www.softbank.jp/biz/blog/cloud-technology/ ) などを運営している。",
+    "twitter": "https://twitter.com/eterao",
+    "facebook": "",
+    "web": "",
+    "linkedin": "",
+    "github": "",
+    "instagram": ""
+  },
+  {
+    "id": "takanori",
+    "company": "クックパッド株式会社",
+    "name": "緑川たかのり",
+    "title": "CTO室",
+    "profile": "元技術系書籍の編集者。プライベートではPearbookという名目で書籍や漫画を刊行。その後クックパッド株式会社CTO室内で技術広報に従事。",
+    "twitter": "https://twitter.com/techfavo",
+    "facebook": "",
+    "web": "",
+    "linkedin": "",
+    "github": "",
+    "instagram": ""
   }
 ]
