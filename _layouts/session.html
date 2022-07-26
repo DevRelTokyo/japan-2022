@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head prefix="og: https://ogp.me/ns#">
+	{% include head2.html %}
+</head> 
+
+<body>
+	{% include header2.html %}
+	{% assign session = site.data.sessions | find: "id", page.id %}
+	<div style="padding: 5em 6em">
+		<div class="item item-talk"> <!-- <div class="item item-other"> -->
+			<div class="meta">
+				<div class="location mb-3">
+					<i class="fas fa-map-marker-alt me-2"></i>トラック {{ session.track }}　
+					<i class="fas fa-clock me-2"></i>{{ session.start }}
+				</div>
+			</div><!--//meta-->
+			<div class="content">
+				<h3 class="title mb-10">テーマ: {{ session.theme }}<br />
+					{% if session.title == "" %}
+						<a href="{{ site.baseurl }}/sessions/{{ session.id }}/">後ほどアップデート</a>
+					{% else %}
+						<a href="{{ site.baseurl }}/sessions/{{ session.id }}/">{{ session.title }}</a>
+					{% endif %}
+				</h3>
+				<div class="desc" style="padding-top: 2em; line-height: 200%; padding-bottom: 2em;">
+					{{ session.description }}
+					<ul class="social-list list-inline mb-0" style="padding-top: 1em;">
+						<li class="list-inline-item">
+							<a href="{{ page.gcal }}" target="_blank">
+								<i class="fab fa-google"></i> Googleカレンダーに登録する
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a href="{{ site.baseurl }}/sessions/{{page.id}}.ics" target="_blank">
+								<i class="fa fa-calendar"></i> icsファイルのダウンロード
+							</a>
+						</li>
+					</ul>
+				</div>
+				<h3>モデレーター</h3>
+				{% assign moderator = site.data.speakers | find: "id", session.moderator %}
+				<div style="text-align: center; width: 8em; padding-bottom: 1em;">
+					<a href="/speakers/{{ session.moderator }}/">
+						<img class="profile-image rounded-circle mb-10" style="width: 7em;" src="{{ site.baseurl }}/assets/images/speakers/{{ session.moderator }}.jpg" alt="">
+					</a>
+					<div class="name">
+						<a class="theme-link" href="/speakers/{{ session.moderator }}/">{{ moderator.name }}</a>
+					</div>
+				</div>
+				<h3>パネリスト</h3>
+				<ul class="profile" style="padding-left: 0">
+					{% for panelist in session.panelists %}
+						<li style="width: 8em;">
+							<a href="/speakers/{{ panelist.id }}/">
+								<img class="profile-image rounded-circle mb-1" style="width: 7em;" src="{{ site.baseurl }}/assets/images/speakers/{{ panelist.id }}.jpg" alt="">
+							</a>
+							<div class="name">
+								<a class="theme-link" href="/speakers/{{ panelist.id }}/">{{ panelist.name }}</a>
+							</div>
+						</li>
+					{% endfor %}
+				</ul><!--//profile-->
+			</div>
+		</div>
+	</div>
+	{% include footer.html %}
+</body>
+</html> 

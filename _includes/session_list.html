@@ -1,0 +1,36 @@
+{% assign session = include.session %}
+		<h3 class="title mb-10">テーマ: {{ session.theme }}<br />
+			{% if session.title == "" %}
+			<a href="{{ site.baseurl }}/sessions/{{ session.id }}/">後ほどアップデート</a></h3>
+			{% else %}
+			<a href="{{ site.baseurl }}/sessions/{{ session.id }}/">{{ session.title }}</a></h3>
+			{% endif %}
+		<div class="location mb-3"><i class="fas fa-map-marker-alt me-2"></i>トラック {{ session.track }}</div>
+		<ul class="profile" style="padding-left: 0">
+			<li>
+				{% assign moderator = site.data.speakers | find: "id", session.moderator %}
+				<a href="#modal-speaker-{{ session.moderator }}" data-bs-toggle="modal" data-bs-target="#modal-speaker-{{ session.moderator }}">
+					<img class="profile-image rounded-circle mb-1" src="{{ site.baseurl }}/assets/images/speakers/{{ session.moderator }}.jpg" alt="">
+				</a>
+				<div class="name">
+					<a class="theme-link" href="#modal-speaker-{{ session.moderator }}" data-bs-toggle="modal" data-bs-target="#modal-speaker-{{ session.moderator }}">
+						{{ moderator.name }}
+					</a>
+				</div>
+			</li>
+			{% for panelist in session.panelists %}
+				<li>
+					<a href="#modal-speaker-{{ panelist.id }}" data-bs-toggle="modal" data-bs-target="#modal-speaker-{{ panelist.id }}">
+						<img class="profile-image rounded-circle mb-1" src="{{ site.baseurl }}/assets/images/speakers/{{ panelist.id }}.jpg" alt="">
+					</a>
+					<div class="name">
+						<a class="theme-link" href="#modal-speaker-{{ panelist.id }}" data-bs-toggle="modal" data-bs-target="#modal-speaker-{{ panelist.id }}">
+							{{ panelist.name }}
+						</a>
+					</div>
+				</li>
+			{% endfor %}
+		</ul><!--//profile-->
+		<div class="desc">
+			{{ session.description }}
+		</div>

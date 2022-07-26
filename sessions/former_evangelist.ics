@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:icalendar-ruby
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Asia/Tokyo
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20220726T142736Z
+UID:7054fbb0-3c2d-466a-a9ff-a97bd570dfae
+DTSTART:20220806T161000
+DTEND:20220806T170500
+DESCRIPTION:トラックB / 16:10〜17:05\n\n🌟 イベント参加用URL\
+ nhttps://devrel.dev/japan-2022/view/\n\n🌟 セッション詳細\nhttps:
+ //devrel.dev/japan-2022/sessions/former_evangelist/\n\n🌟 ハッシュ
+ タグ\n#DevReljpB\n\n🌟 質問投稿（Sli.do）\nhttps://app.sli.do/ev
+ ent/7CGdu7oM7pgzZK58e7iKW8\n  \n🎤 モデレーター：鈴木 章太郎
+ @Elastic\n🗣 パネリスト：\n- 佐々木 志門@IBM\n- 大谷 純@
+ フリーランス\n- BB（大竹遼）@株式会社ジョイゾー\n
+SUMMARY: at DevRel/Japan CONFERENCE 2022
+END:VEVENT
+END:VCALENDAR

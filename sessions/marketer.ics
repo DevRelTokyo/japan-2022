@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:icalendar-ruby
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Asia/Tokyo
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20220726T142736Z
+UID:8d0663a9-dd49-453e-8805-93265582e884
+DTSTART:20220806T151000
+DTEND:20220806T160500
+DESCRIPTION:トラックA / 15:10〜16:05\n\n🌟 イベント参加用URL\
+ nhttps://devrel.dev/japan-2022/view/\n\n🌟 セッション詳細\nhttps:
+ //devrel.dev/japan-2022/sessions/marketer/\n\n🌟 ハッシュタグ\n#De
+ vReljpA\n\n🌟 質問投稿（Sli.do）\nhttps://app.sli.do/event/nRagqia
+ WQ1koszJjBBn4UM\n  \n🎤 モデレーター：小島 英揮@Still Day One
+  合同会社\n🗣 パネリスト：\n- 永淵 ぎょり@オーティフ
+ ァイ株式会社\n- 佐々木 大樹@富士通クラウドテクノロ
+ ジーズ株式会社\n- 山崎 亘@株式会社ウフル\n
+SUMMARY: at DevRel/Japan CONFERENCE 2022
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "tokyo",
+    "name": "東京会場（FORUM8）",
+    "address": "東京都渋谷区道玄坂2-10-7新大宗ビル受付8階",
+    "venue": "802 & 803",
+    "map": "https://goo.gl/maps/NwhDiUMGKpJAHyJz6"
+  },
+  {
+    "id": "osaka",
+    "name": "大阪会場",
+    "address": "大阪府大阪市北区梅田1-1-3大阪駅前第3ビル2階",
+    "venue": "63F & 63E-2",
+    "map": "https://goo.gl/maps/MwJVLcbdsM7rGZGX6"
+  },
+  {
+    "id": "sapporo",
+    "name": "札幌会場（Microsoft Base）",
+    "address": "〒060-0061 北海道札幌市中央区南1条西6丁目20番地1 ジョブキタビル8階",
+    "venue": "",
+    "map": "https://goo.gl/maps/1JcD3K73XDkMbkDW9"
+  }
+]

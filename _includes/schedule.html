@@ -3,15 +3,34 @@
 		<h3 class="section-heading text-center mb-5">スケジュール</h3>
 		
 		<!-- Nav tabs -->
-		<ul class="schedule-nav nav nav-pills nav-fill" id="myTab" role="tablist">
+		<ul class="schedule-nav nav nav-pills nav-fill">
 			<li class="nav-item me-2">
 				<a class="nav-link active" id="tab-1" data-bs-toggle="tab" href="#tab-1-content" role="tab" aria-controls="tab-1-content" aria-selected="true">
 					<span class="heading">前夜祭</span>
 					<span class="meta">8月5日(金)</span>
 				</a>
 			</li>
+		</ul>
+
+		<!-- Tab panes -->
+		<div class="schedule-tab-content tab-content">
+			<div class="tab-pane active">
+				{% assign session = site.data.sessions | find: "day", 5 %}
+				<div class="item item-talk"> <!-- <div class="item item-other"> -->
+					<div class="meta">
+						<h4 class="time mb-3">{{ session.start }} - {{ session.end }}</h4>
+					</div><!--//meta-->
+					<div class="content">
+						{% include session_list.html session=session %}
+					</div>
+				</div>
+			</div><!--//tab-1-content-->
+		</div><!--//schedule-tab-content-->
+		
+		<!-- Nav tabs -->
+		<ul class="schedule-nav nav nav-pills nav-fill">
 			<li class="nav-item me-2">
-				<a class="nav-link" id="tab-2" data-bs-toggle="tab" href="#tab-2-content" role="tab" aria-controls="tab-2-content" aria-selected="false">
+				<a class="nav-link active" id="tab-2" data-bs-toggle="tab" href="#tab-2-content" role="tab" aria-controls="tab-2-content" aria-selected="false">
 					<span class="heading">当日</span>
 					<span class="meta">8月6日(土)</span>
 				</a>
@@ -21,30 +40,63 @@
 		<!-- Tab panes -->
 		<div class="schedule-tab-content tab-content">
 			<div class="tab-pane active" id="tab-1-content" role="tabpanel" aria-labelledby="tab-1">
-				<h4 class="text-center py-5 text-muted">19〜22時（詳細は後日）</h4>
-				{% comment %}
 				<div class="item item-talk"> <!-- <div class="item item-other"> -->
 					<div class="meta">
-						<h4 class="time mb-3">9:00 - 9:30</h4>
-						<div class="profile">
-							<a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><img class="profile-image rounded-circle  mb-2" src="{{ site.baseurl }}/assets/images/speakers/speaker-1.jpg" alt=""></a>
-							<div class="name"><a class="theme-link" href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1">James Doe</a></div>
-						</div><!--//profile-->
+						<h4 class="time mb-3">13:00</h4>
 					</div><!--//meta-->
 					<div class="content">
-						<h3 class="title mb-3">Best Practices And Tips For A Clean Angular Application</h3>
-						<div class="location mb-3"><i class="fas fa-map-marker-alt me-2"></i>Conference Room A</div>
-						<div class="desc">Talk's summary goes here. <strong>You can hook up the speaker profile image/name on the left with his or her bio modal window</strong>. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis ornare nibh, pulvinar posuere justo. Aenean laoreet nunc a eleifend lacinia. Phasellus dignissim augue at consectetur ullamcorper. </div>
-					</div><!--//content-->
-				</div><!--//item-->
-				{% endcomment %}
-			</div><!--//tab-1-content-->
-			<div class="tab-pane no-timeline" id="tab-2-content" role="tabpanel" aria-labelledby="tab-2">
-				<h4 class="text-center py-5 text-muted">13〜18時（詳細は後日）</h4>
-			</div><!--//tab-2-content-->
+						<h3 class="title mb-10">開催の挨拶</h3>
+						<div class="location mb-3"><i class="fas fa-map-marker-alt me-2"></i>トラック A</div>
+						<ul class="profile" style="padding-left: 0">
+						</ul><!--//profile-->
+						<div class="desc">
+						</div>
+					</div>
+				</div>
+				{% assign times = "13:10,14:10,15:10,16:10,17:10" | split: ',' %}
+				{% for time in times %}
+					{% assign sessions = site.data.sessions | where: "start", time %}
+					{% assign first_session = sessions[0] %}
+					<div class="item item-talk"> <!-- <div class="item item-other"> -->
+						<div class="meta">
+							<h4 class="time mb-3">{{ first_session.start }} - {{ first_session.end }}</h4>
+						</div><!--//meta-->
+						<div class="content" style="display: flex;">
+							{% for session in sessions %}
+								<div style="width:45%;padding: 1%">
+									{% include session_list.html session=session %}
+								</div>
+							{% endfor %}
+						</div>
+					</div>
+				{% endfor %}
+				<div class="item item-talk"> <!-- <div class="item item-other"> -->
+					<div class="meta">
+						<h4 class="time mb-3">18:05 - 18:40</h4>
+					</div><!--//meta-->
+					<div class="content">
+						<h3 class="title mb-10">懇親会&LT</h3>
+						<div class="location mb-3"><i class="fas fa-map-marker-alt me-2"></i>トラック A</div>
+						<ul class="profile" style="padding-left: 0">
+						</ul><!--//profile-->
+						<div class="desc">
+						</div>
+					</div>
+				</div>
+				<div class="item item-talk"> <!-- <div class="item item-other"> -->
+					<div class="meta">
+						<h4 class="time mb-3">18:40</h4>
+					</div><!--//meta-->
+					<div class="content">
+						<h3 class="title mb-10">ありがとう！ &amp;&amp; おしまい！</h3>
+						<div class="location mb-3"><i class="fas fa-map-marker-alt me-2"></i>トラック A</div>
+						<ul class="profile" style="padding-left: 0">
+						</ul><!--//profile-->
+						<div class="desc">
+						</div>
+					</div>
+				</div>
+			</div>
 		</div><!--//schedule-tab-content-->
-		<div class="schedule-cta text-center mx-auto">
-			<!-- <a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devconf-free-bootstrap-4-conference-template-for-tech-conferences-and-events/" class="btn btn-secondary btn-lg d-block d-md-inline-block" target="_blank">参加申し込みはこちら</a> -->
-		</div>
 	</div><!--//container-->
 </section><!--//schedule-section-->

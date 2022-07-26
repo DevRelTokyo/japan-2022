@@ -20,6 +20,7 @@ json.each do |session|
     panelists << speaker if speaker
   end
   panelist = panelists.map{|s| "#{s['name']}@#{s['company']}"}.join("\n- ")
+  session['panelists'] = panelists
   detail = <<-EOS
 トラック#{session['track']} / #{session['start']}〜#{session['end']}
 
