@@ -3,16 +3,16 @@ require('uri');
 require 'icalendar'
 
 slido = {
-  "A": 'https://app.sli.do/event/spntlw5e',
-  "B": 'https://app.sli.do/event/9m3udkrj',
-  "C": 'https://app.sli.do/event/udiacusj'
+  "A": 'https://app.sli.do/event/nRagqiaWQ1koszJjBBn4UM',
+  "B": 'https://app.sli.do/event/7CGdu7oM7pgzZK58e7iKW8'
 }
+
 json = JSON.parse(open('./_data/sessions.json').read)
 speakers = JSON.parse(open('./_data/speakers.json').read)
 json.each do |session|
-  title = "#{session['title']} at DevRel/Japan CONFERENCE 2021"
-  start_time = "20211113T#{session['start'].gsub(':', '')}"
-  end_time = "20211113T#{session['end'].gsub(':', '')}"
+  title = "#{session['title']} at DevRel/Japan CONFERENCE 2022"
+  start_time = "20220806T#{session['start'].gsub(':', '')}"
+  end_time = "20220806T#{session['end'].gsub(':', '')}"
   moderator = speakers.select{|s| s['id'] == session['moderator']}.first
   panelists = []
   4.times do |i|
@@ -24,13 +24,10 @@ json.each do |session|
 トラック#{session['track']} / #{session['start']}〜#{session['end']}
 
 🌟 イベント参加用URL
-https://devrel.dev/japan-2021/view/
+https://devrel.dev/japan-2022/view/
 
 🌟 セッション詳細
-https://devrel.dev/japan-2021/sessions/#{session['id']}/
-
-🌟 Ask the Speakers
-https://devreljp.ovice.in/
+https://devrel.dev/japan-2022/sessions/#{session['id']}/
 
 🌟 ハッシュタグ
 #DevReljp#{session['track']}
