@@ -492,5 +492,18 @@
     "linkedin": "",
     "github": "",
     "instagram": ""
+  },
+  {
+    "id": "kojima",
+    "company": "株式会社デンソークリエイト",
+    "name": "小島 優介",
+    "title": "エンジニアリングマネージャー",
+    "profile": "30代後半から発信活動を始めて人生が楽しくなりました。\n「ハピネスチームビルディング」と名付けた活動を通して、皆が楽しく開発できるための知見を発信しています。\n主な活動実績は次の通りです。デブサミ2020関西でベストスピーカー賞1位受賞、Microsoft Build 2022で発表、ITエンジニア向けの月刊誌「Software Design」2022年4月号より連載中、「Serverless LT初心者向け」というコミュニティを運営。",
+    "twitter": "https://twitter.com/kojimadev",
+    "facebook": "https://www.facebook.com/yusuke.kojima.5070",
+    "web": "",
+    "linkedin": "",
+    "github": "",
+    "instagram": ""
   }
 ]
