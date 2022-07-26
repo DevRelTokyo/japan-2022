@@ -8,7 +8,8 @@
 		<div class="location mb-3"><i class="fas fa-map-marker-alt me-2"></i>トラック {{ session.track }}</div>
 		<ul class="profile" style="padding-left: 0">
 			<li>
-				{% assign moderator = site.data.speakers | find: "id", session.moderator %}
+				{% assign moderator = site.data.speakers | where: "id", session.moderator %}
+				{% assign moderator = moderator[0] %}
 				<a href="#modal-speaker-{{ session.moderator }}" data-bs-toggle="modal" data-bs-target="#modal-speaker-{{ session.moderator }}">
 					<img class="profile-image rounded-circle mb-1" src="{{ site.baseurl }}/assets/images/speakers/{{ session.moderator }}.jpg" alt="">
 				</a>
