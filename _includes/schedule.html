@@ -15,7 +15,7 @@
 		<!-- Tab panes -->
 		<div class="schedule-tab-content tab-content">
 			<div class="tab-pane active">
-				{% assign session = site.data.sessions | find: "day", 5 %}
+				{% assign session = site.data.sessions | find: "day", "5" %}
 				<div class="item item-talk"> <!-- <div class="item item-other"> -->
 					<div class="meta">
 						<h4 class="time mb-3">{{ session.start }} - {{ session.end }}</h4>
