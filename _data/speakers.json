@@ -388,5 +388,57 @@
     "linkedin": "",
     "github": "",
     "instagram": ""
+  },
+  {
+    "id": "hikaru",
+    "company": "アクイアジャパン",
+    "name": "丸山 ひかる",
+    "title": "Technical Translator",
+    "profile": "独立系ソフトウェア開発会社でWeb APIの開発に携わったのちに、テクニカルエバンジェリストとしてプロダクトの普及に貢献。現在はDrupalを基盤としたエンタープライズ向けCMSプラットフォームを提供するAcquia（アクイア）でウェブサイトのコンテンツの技術翻訳やローカライズを担当。CodeZineで「Drupal 9で始めるWebサイト開発入門」執筆。趣味は山登りとキャンプ飯。",
+    "twitter": "https://twitter.com/maruyamahiakru",
+    "facebook": "",
+    "web": "",
+    "linkedin": "",
+    "github": "",
+    "instagram": ""
+  },
+  {
+    "id": "arisa",
+    "company": "Storyblok",
+    "name": "福﨑 有彩",
+    "title": "Developer Relations Engineer",
+    "profile": "元エミレーツ航空客室乗務員。2017年に独学でフロントエンドエンジニアとして開発業務を始め、3つのプログラミングスクールでメンター講師を勤める。GatsbyConf 2021で初登壇し、現在はドイツからフルリモートで、オーストリア発祥SaaSスタートアップ企業、ヘッドレスCMSのStoryblokでDeveloper Relations Engineerをしている。GirlCodeアンバサダー、GDE (Google Developer Expert)でもあり、プライベートでは合気道、スノーボード、ロングボードが好き。",
+    "twitter": "https://twitter.com/arisa_dev",
+    "facebook": "",
+    "web": "https://arisa-fukuzaki.dev/",
+    "linkedin": "https://de.linkedin.com/in/%F0%9F%A5%8B-arisa-fukuzaki-b68b51a8",
+    "github": "https://github.com/schabibi1",
+    "instagram": ""
+  },
+  {
+    "id": "nakanishi",
+    "company": "株式会社ワンキャリア",
+    "name": "中西 太郎",
+    "title": "",
+    "profile": "2022年、エンジニアとして株式会社ワンキャリアに入社。\nQuality AssuranceチームとDeveloper Relationsチームの立ち上げを任され、組織体制を整備しながら、テスト業務やテックブログのディレクションに従事している。最近はエンジニア採用業務も兼務。\n\n趣味はボードゲームと寺社仏閣巡り。",
+    "twitter": "https://twitter.com/nana_nigiiro",
+    "facebook": "",
+    "web": "",
+    "linkedin": "",
+    "github": "",
+    "instagram": ""
+  },
+  {
+    "id": "odasho",
+    "company": "Microsoft Japan",
+    "name": "小田祥平（おだしょー）",
+    "title": "Developer Marketing Manager / Evangelist",
+    "profile": "商社系SIerにて10年程システム開発を経験した後、現在は開発者向けマーケティングを担当。エバンジェリストとしてコミュニティの運営やそのサポート、技術文書の寄稿、YouTuber、学校での講義など様々な活動をしています。DevRel Meetup in Tokyo運営メンバーの1人。",
+    "twitter": "https://twitter.com/MS_odasho",
+    "facebook": "https://www.facebook.com/odasho0618",
+    "web": "",
+    "linkedin": "https://www.linkedin.com/in/odasho/",
+    "github": "",
+    "instagram": ""
   }
 ]
