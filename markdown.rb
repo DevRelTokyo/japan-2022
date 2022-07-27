@@ -4,7 +4,7 @@ sessions_json = JSON.parse(open('_data/sessions.json').read)
 speakers_json = JSON.parse(open('_data/speakers.json').read)
 
 sessions_json.each do |session|
-  puts "## [#{session['title']}](https://devrel.tokyo/japan-2021/sessions/#{session['id']})"
+  puts "## [#{session['title']}](https://devrel.tokyo/japan-2022/sessions/#{session['id']})"
   moderator_id = session['moderator']
   m = {}
   if moderator_id == 'none'
@@ -40,10 +40,10 @@ sessions_json.each do |session|
 
   puts "| モデレータ |" + ("スピーカー |" * speakers.size).to_s
   puts "|" + ("----------|" * (speakers.size + 1)).to_s
-  lines = ["| [![](https://devrel.tokyo/japan-2021/assets/images/speakers/#{m[:image]})<br />#{m[:name]}](https://devrel.tokyo/japan-2021/speakers/#{m[:id]}) |"]
+  lines = ["| [![](https://devrel.tokyo/japan-2022/assets/images/speakers/#{m[:image]})<br />#{m[:name]}](https://devrel.tokyo/japan-2022/speakers/#{m[:id]}) |"]
   
   speakers.each do |s|
-    lines << "[![](https://devrel.tokyo/japan-2021/assets/images/speakers/#{s[:image]})<br />#{s[:name]}](https://devrel.tokyo/japan-2021/speakers/#{s[:id]}) |"
+    lines << "[![](https://devrel.tokyo/japan-2022/assets/images/speakers/#{s[:image]})<br />#{s[:name]}](https://devrel.tokyo/japan-2022/speakers/#{s[:id]}) |"
   end
 
   puts lines.join("")
