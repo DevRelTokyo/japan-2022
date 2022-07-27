@@ -6,8 +6,8 @@ BEGIN:VTIMEZONE
 TZID:Asia/Tokyo
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTAMP:20220726T143408Z
-UID:9ed5daf5-6acf-4b45-975a-ba27edd5fe95
+DTSTAMP:20220727T023127Z
+UID:81b90d45-1441-46ce-8d7a-f9540c75fa48
 DTSTART:20220806T171000
 DTEND:20220806T180500
 DESCRIPTION:トラックA / 17:10〜18:05\n\n🌟 イベント参加用URL\
@@ -16,6 +16,7 @@ DESCRIPTION:トラックA / 17:10〜18:05\n\n🌟 イベント参加用URL\
  jpA\n\n🌟 質問投稿（Sli.do）\nhttps://app.sli.do/event/nRagqiaWQ1k
  oszJjBBn4UM\n  \n🎤 モデレーター：小田祥平（おだしょー
  ）@Microsoft Japan\n🗣 パネリスト：\n- \n
-SUMMARY: at DevRel/Japan CONFERENCE 2022
+SUMMARY:SIerだからこそDevRel活動をしよう(仮) at DevRel/Japan CO
+ NFERENCE 2022
 END:VEVENT
 END:VCALENDAR

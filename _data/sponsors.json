@@ -12,5 +12,12 @@
     "type": "ゴールド",
     "name": "ソラコム",
     "url": "https://careers.soracom.jp/"
+  },
+  {
+    "id": "okta",
+    "company": "Okta Japan株式会社",
+    "type": "ゴールド",
+    "name": "Okta",
+    "url": "https://auth0.com/jp"
   }
 ]
