@@ -19,5 +19,19 @@
     "type": "ゴールド",
     "name": "Okta",
     "url": "https://auth0.com/jp"
+  },
+  {
+    "id": "codezine",
+    "company": "CodeZine",
+    "type": "メディア",
+    "name": "CodeZine",
+    "url": "https://codezine.jp/"
+  },
+  {
+    "id": "thinkit",
+    "company": "ThinkIT",
+    "type": "メディア",
+    "name": "ThinkIT",
+    "url": "https://thinkit.co.jp/"
   }
 ]

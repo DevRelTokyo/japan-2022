@@ -1,0 +1,16 @@
+{% for sponsor in include.sponsors %}
+<div class="logo-item col-{{ include.size }}">
+	<div class="row">
+		<div class="col-12">
+			<a href="{{ sponsor.url }}">
+				<img src="{{ site.baseurl }}/assets/images/sponsors/{{ sponsor.id }}.png" alt="">
+			</a>
+		</div>
+		<div class="col-12 text-center">
+			<h4>
+				<a href="{{ sponsor.url }}">{{ sponsor.name }}</a>
+			</h4>
+		</div>
+	</div>
+</div>
+{% endfor %}

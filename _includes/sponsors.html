@@ -11,22 +11,10 @@
 			</p>
 		</div>
 		<div class="row logos justify-content-center">
-			{% for sponsor in site.data.sponsors | where: 'type', 'ゴールド' %}
-				<div class="logo-item col-4">
-					<div class="row">
-						<div class="col-12">
-							<a href="{{ sponsor.url }}">
-								<img src="{{ site.baseurl }}/assets/images/sponsors/{{ sponsor.id }}.png" alt="">
-							</a>
-						</div>
-						<div class="col-12 text-center">
-							<h4>
-								<a href="{{ sponsor.url }}">{{ sponsor.name }}</a>
-							</h4>
-						</div>
-					</div>
-				</div>
-			{% endfor %}
+			{% assign gold = site.data.sponsors | where: "type", "ゴールド" %}
+			{% include sponsor.html sponsors=gold size=4 %}
+			{% assign sponsors = site.data.sponsors | where: "type", "メディア" %}
+			{% include sponsor.html sponsors=sponsors size=3 %}
 		</div><!--//row-->
 		<div class="sponsors-cta text-center pt-5"><a class="btn-primary btn btn-lg" href="mailto:hi@devrel.tokyo">スポンサー問い合わせ</a></div>
 	</div><!--//container-->
