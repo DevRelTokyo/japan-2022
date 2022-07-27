@@ -505,5 +505,31 @@
     "linkedin": "",
     "github": "",
     "instagram": ""
+  },
+  {
+    "id": "kizawa",
+    "company": "SCSK株式会社",
+    "name": "木澤 朋隆",
+    "title": "ITスペシャリスト",
+    "profile": "各種Webシステムのインフラ構築や自社クラウド開発などでキャリアを積んだ後、現在はAWSを中心としたクラウドアーキテクトや各種プロモーション、社内の開発者支援活動などを担当。\n「クラウドに強いSCSK」を目指し社内でのコミュニティ活動を主宰し、2021年に自社エンジニアブログ「TechHarmony」を立ち上げ。\n\n2022 AWS Partner Ambassador / APN AWS Top Engineer / APN ALL AWS Certifications Engineer\nSORACOM User Group運営メンバー",
+    "twitter": "https://twitter.com/kizawa2020",
+    "facebook": "",
+    "web": "https://kizawa.info/",
+    "linkedin": "https://www.linkedin.com/in/kizawa2020/",
+    "github": "",
+    "instagram": ""
+  },
+  {
+    "id": "katano",
+    "company": "伊藤忠テクノソリューションズ株式会社",
+    "name": "片野 潤一",
+    "title": "エキスパートエンジニア",
+    "profile": "SIer に所属する開発系エンジニア。OutSystems 認定トレーナー。\nデベロッパーやアーキテクトとして様々なプロジェクトを経験後、ローコードプラットフォーム製品の推進担当となりました。\nプリセールス、開発支援、トレーニング講師、社内外への技術情報の発信などを行っています。",
+    "twitter": "https://twitter.com/kata_junn/",
+    "facebook": "",
+    "web": "",
+    "linkedin": "https://www.linkedin.com/in/junichi-katano-33a231172",
+    "github": "",
+    "instagram": ""
   }
 ]

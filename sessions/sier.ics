@@ -6,8 +6,8 @@ BEGIN:VTIMEZONE
 TZID:Asia/Tokyo
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTAMP:20220727T041124Z
-UID:877e907b-4907-4b96-8b9c-6bd220aa4c20
+DTSTAMP:20220727T043046Z
+UID:1df62ccd-c9cc-490f-bb07-fc8252d4d8d7
 DTSTART:20220806T171000
 DTEND:20220806T180500
 DESCRIPTION:トラックA / 17:10〜18:05\n\n🌟 イベント参加用URL\
@@ -15,7 +15,9 @@ DESCRIPTION:トラックA / 17:10〜18:05\n\n🌟 イベント参加用URL\
  //devrel.dev/japan-2022/sessions/sier/\n\n🌟 ハッシュタグ\n#DevRel
  jpA\n\n🌟 質問投稿（Sli.do）\nhttps://app.sli.do/event/nRagqiaWQ1k
  oszJjBBn4UM\n  \n🎤 モデレーター：小田祥平（おだしょー
- ）@Microsoft Japan\n🗣 パネリスト：\n- \n
+ ）@Microsoft Japan\n🗣 パネリスト：\n- 小島 優介@株式会社
+ デンソークリエイト\n- 木澤 朋隆@SCSK株式会社\n- 片野 
+ 潤一@伊藤忠テクノソリューションズ株式会社\n
 SUMMARY:SIerだからこそDevRel活動をしよう(仮) at DevRel/Japan CO
  NFERENCE 2022
 END:VEVENT
