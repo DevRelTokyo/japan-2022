@@ -6,8 +6,8 @@ BEGIN:VTIMEZONE
 TZID:Asia/Tokyo
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTAMP:20220727T043046Z
-UID:97cd4cc2-a04f-4bcd-bbed-ed0188089c5a
+DTSTAMP:20220727T052305Z
+UID:3a6554bf-41b5-4b55-a64b-523d13967feb
 DTSTART:20220806T161000
 DTEND:20220806T170500
 DESCRIPTION:トラックB / 16:10〜17:05\n\n🌟 イベント参加用URL\
@@ -17,6 +17,7 @@ DESCRIPTION:トラックB / 16:10〜17:05\n\n🌟 イベント参加用URL\
  ent/7CGdu7oM7pgzZK58e7iKW8\n  \n🎤 モデレーター：鈴木 章太郎
  @Elastic\n🗣 パネリスト：\n- 佐々木 志門@IBM\n- 大谷 純@
  フリーランス\n- BB（大竹遼）@株式会社ジョイゾー\n
-SUMMARY: at DevRel/Japan CONFERENCE 2022
+SUMMARY:経験者が語るエバンジェリストあるある、エバン
+ ジェリストは×××しがち？ at DevRel/Japan CONFERENCE 2022
 END:VEVENT
 END:VCALENDAR
