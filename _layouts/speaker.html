@@ -6,7 +6,8 @@
 
 <body>    
 	{% include header2.html %}
-	{% assign speaker = site.data.speakers | find: "id", page.id %}
+	{% assign speaker = site.data.speakers | where: "id", page.id %}
+	{% assign speaker = speaker[0] %}
 	<div style="padding: 7em 6em">
 		<div class="container">
 			<div class="row">
@@ -46,7 +47,8 @@
 					</ul><!--//social-list-->
 				</div>
 			</div>
-			{% assign session = site.data.sessions | find: "id", speaker.session %}
+			{% assign session = site.data.sessions | where: "id", speaker.session %}
+			{% assign session = session[0] %}
 			<div class="content">
 				<div class="row" style="padding-top: 2em">
 					<div class="col-12">
