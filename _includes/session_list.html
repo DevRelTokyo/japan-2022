@@ -38,5 +38,9 @@
 			{% endfor %}
 		</div>
 		<div class="desc">
-			{{ session.description }}
+			{% if include.truncate == "false" %}
+				{{ session.description }}
+			{% else %}
+				{{ session.description | truncate: 100 }}
+			{% endif %}
 		</div>
