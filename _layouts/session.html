@@ -6,7 +6,8 @@
 
 <body>
 	{% include header2.html %}
-	{% assign session = site.data.sessions | find: "id", page.id %}
+	{% assign session = site.data.sessions | where: "id", page.id %}
+	{% assign session = session[0] %}
 	<div style="padding: 5em 6em">
 		<div class="item item-talk"> <!-- <div class="item item-other"> -->
 			<div class="meta">
@@ -39,7 +40,8 @@
 					</ul>
 				</div>
 				<h3>モデレーター</h3>
-				{% assign moderator = site.data.speakers | find: "id", session.moderator %}
+				{% assign moderator = site.data.speakers | where: "id", session.moderator %}
+				{% assign moderator = moderator[0] %}
 				<div style="text-align: center; width: 8em; padding-bottom: 1em;">
 					<a href="/speakers/{{ session.moderator }}/">
 						<img class="profile-image rounded-circle mb-10" style="width: 7em;" src="{{ site.baseurl }}/assets/images/speakers/{{ session.moderator }}.jpg" alt="">
