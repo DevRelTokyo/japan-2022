@@ -21,7 +21,7 @@
 						{{ speaker.name }}@{{ speaker.company }}
 					</h3>
 					<p style="line-height: 1.8">
-						{{ speaker.profile }}
+						{{ speaker.profile | markdownify }}
 					</p>
 					<ul class="social-list list-inline mb-0" style="font-size:xx-large">
 						{% if speaker.twitter != '' %}
