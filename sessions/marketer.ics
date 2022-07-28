@@ -6,8 +6,8 @@ BEGIN:VTIMEZONE
 TZID:Asia/Tokyo
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTAMP:20220727T052305Z
-UID:ae5b63e0-6b12-4bdd-86ac-35031625059e
+DTSTAMP:20220728T132320Z
+UID:de6b7461-b406-4fcd-816c-8dae41baae65
 DTSTART:20220806T151000
 DTEND:20220806T160500
 DESCRIPTION:トラックA / 15:10〜16:05\n\n🌟 イベント参加用URL\
@@ -18,6 +18,7 @@ DESCRIPTION:トラックA / 15:10〜16:05\n\n🌟 イベント参加用URL\
   合同会社\n🗣 パネリスト：\n- 永淵 ぎょり@オーティフ
  ァイ株式会社\n- 佐々木 大樹@富士通クラウドテクノロ
  ジーズ株式会社\n- 山崎 亘@株式会社ウフル\n
-SUMMARY: at DevRel/Japan CONFERENCE 2022
+SUMMARY:今こそマーケティング視点を！　DevRelがもつ可能
+ 性を探る。 at DevRel/Japan CONFERENCE 2022
 END:VEVENT
 END:VCALENDAR

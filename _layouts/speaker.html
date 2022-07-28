@@ -1,13 +1,58 @@
 <!DOCTYPE html>
 <html lang="en"> 
 <head prefix="og: https://ogp.me/ns#">
-	{% include head.html %}
+	{% include head3.html %}
 </head> 
 
 <body>    
-	{% include header.html %}
-	{{ content }}
+	{% include header2.html %}
+	{% assign speaker = site.data.speakers | find: "id", page.id %}
+	<div style="padding: 7em 6em">
+		<div class="container">
+			<div class="row">
+				<div class="col-4">
+					<div class="card rounded-0">
+						<img src="{{ site.baseurl }}/assets/images/speakers/{{ speaker.id }}.jpg" class="card-img-top rounded-0" alt="">
+					</div>
+				</div>
+				<div class="col-8">
+					<h3 class="section-heading text-center mb-3">
+						{{ speaker.name }}@{{ speaker.company }}
+					</h3>
+					<p style="line-height: 1.8">
+						{{ speaker.profile }}
+					</p>
+					<ul class="social-list list-inline mb-0" style="font-size:xx-large">
+						{% if speaker.twitter != '' %}
+							<li class="list-inline-item"><a  href="{{ speaker.twitter }}" target="_blank">
+								<i class="fab fa-twitter fa-fw"></i></a>
+							</li>
+						{% endif %}
+						{% if speaker.linkedin != '' %}
+							<li class="list-inline-item"><a  href="{{ speaker.linkedin }}" target="_blank">
+								<i class="fab fa-linkedin-in fa-fw"></i></a>
+							</li>
+						{% endif %}
+						{% if speaker.github != '' %}
+							<li class="list-inline-item"><a  href="{{ speaker.github }}" target="_blank">
+								<i class="fab fa-github fa-fw"></i></a>
+							</li>
+						{% endif %}
+						{% if speaker.web != '' %}
+							<li class="list-inline-item"><a  href="{{ speaker.web }}" target="_blank">
+								<i class="fas fa-globe"></i></a>
+							</li>
+						{% endif %}
+					</ul><!--//social-list-->
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+
+				</div>
+			</div>
+		</div>
+	</div>
 	{% include footer.html %}
-	{% include script.html %}
 </body>
 </html> 
