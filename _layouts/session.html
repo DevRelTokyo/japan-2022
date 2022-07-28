@@ -43,22 +43,22 @@
 				{% assign moderator = site.data.speakers | where: "id", session.moderator %}
 				{% assign moderator = moderator[0] %}
 				<div style="text-align: center; width: 8em; padding-bottom: 1em;">
-					<a href="/speakers/{{ session.moderator }}/">
+					<a href="{{ site.baseurl }}/speakers/{{ session.moderator }}/">
 						<img class="profile-image rounded-circle mb-10" style="width: 7em;" src="{{ site.baseurl }}/assets/images/speakers/{{ session.moderator }}.jpg" alt="">
 					</a>
 					<div class="name">
-						<a class="theme-link" href="/speakers/{{ session.moderator }}/">{{ moderator.name }}</a>
+						<a class="theme-link" href="{{ site.baseurl }}/speakers/{{ session.moderator }}/">{{ moderator.name }}</a>
 					</div>
 				</div>
 				<h3>パネリスト</h3>
 				<ul class="profile" style="padding-left: 0">
 					{% for panelist in session.panelists %}
 						<li style="width: 8em;">
-							<a href="/speakers/{{ panelist.id }}/">
+							<a href="{{ site.baseurl }}/speakers/{{ panelist.id }}/">
 								<img class="profile-image rounded-circle mb-1" style="width: 7em;" src="{{ site.baseurl }}/assets/images/speakers/{{ panelist.id }}.jpg" alt="">
 							</a>
 							<div class="name">
-								<a class="theme-link" href="/speakers/{{ panelist.id }}/">{{ panelist.name }}</a>
+								<a class="theme-link" href="{{ site.baseurl }}/speakers/{{ panelist.id }}/">{{ panelist.name }}</a>
 							</div>
 						</li>
 					{% endfor %}
