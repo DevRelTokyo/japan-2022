@@ -5,33 +5,42 @@
 			{% else %}
 			<a href="{{ site.baseurl }}/sessions/{{ session.id }}/">{{ session.title }}</a></h3>
 			{% endif %}
-		<div class="location mb-3"><i class="fas fa-map-marker-alt me-2"></i>トラック {{ session.track }}</div>
-		<ul class="profile" style="padding-left: 0">
-			<li>
+		<div class="location mb-3">
+			<i class="fas fa-map-marker-alt me-2"></i>トラック {{ session.track }}
+			{% if include.time == "true" %}
+				<i class="fas fa-clock me-2"></i> {{ session.start }}
+			{% endif %}
+		</div>
+		<div class="row">
+			<div class="col-{% if session.panelist == "4"%}2{% else %}3{% endif %}">
 				{% assign moderator = site.data.speakers | where: "id", session.moderator %}
 				{% assign moderator = moderator[0] %}
-				<a href="#modal-speaker-{{ session.moderator }}" data-bs-toggle="modal" data-bs-target="#modal-speaker-{{ session.moderator }}">
-					<img class="profile-image rounded-circle mb-1" src="{{ site.baseurl }}/assets/images/speakers/{{ session.moderator }}.jpg" alt="">
+				<a href="{{ site.baseurl }}/speakers/{{ session.moderator }}/">
+					<img class="profile-image rounded-circle" width="100%" src="{{ site.baseurl }}/assets/images/speakers/{{ session.moderator }}.jpg" alt="">
 				</a>
-				<div class="name">
-					<a class="theme-link" href="#modal-speaker-{{ session.moderator }}" data-bs-toggle="modal" data-bs-target="#modal-speaker-{{ session.moderator }}">
+				<div class="name text-center">
+					<a href="{{ site.baseurl }}/speakers/{{ session.moderator }}/">
 						{{ moderator.name }}
 					</a>
 				</div>
-			</li>
+			</div>
 			{% for panelist in session.panelists %}
-				<li>
-					<a href="#modal-speaker-{{ panelist.id }}" data-bs-toggle="modal" data-bs-target="#modal-speaker-{{ panelist.id }}">
-						<img class="profile-image rounded-circle mb-1" src="{{ site.baseurl }}/assets/images/speakers/{{ panelist.id }}.jpg" alt="">
+				<div class="col-{% if session.panelist == "4"%}2{% else %}3{% endif %}">
+					<a href="{{ site.baseurl }}/speakers/{{ panelist.id }}/">
+						<img class="profile-image rounded-circle" width="100%" src="{{ site.baseurl }}/assets/images/speakers/{{ panelist.id }}.jpg" alt="">
 					</a>
-					<div class="name">
-						<a class="theme-link" href="#modal-speaker-{{ panelist.id }}" data-bs-toggle="modal" data-bs-target="#modal-speaker-{{ panelist.id }}">
+					<div class="name text-center">
+						<a href="{{ site.baseurl }}/speakers/{{ panelist.id }}/">
 							{{ panelist.name }}
 						</a>
 					</div>
-				</li>
+				</div>
 			{% endfor %}
-		</ul><!--//profile-->
+		</div>
 		<div class="desc">
-			{{ session.description }}
+			{% if include.truncate == "false" %}
+				{{ session.description }}
+			{% else %}
+				{{ session.description | truncate: 100 }}
+			{% endif %}
 		</div>
