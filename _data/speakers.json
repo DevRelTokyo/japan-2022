@@ -5,12 +5,14 @@
     "name": "大谷 純",
     "title": "",
     "profile": "フリーランス検索エンジニア・コンサルタント。Elasticsearchなどの検索にまつわるシステムに関して数社を支援。元ElasticのDeveloper Adovocate。",
+    "session": "former_evangelist",
     "twitter": "https://twitter.com/johtani",
     "facebook": "",
     "web": "",
     "linkedin": "",
     "github": "",
-    "instagram": ""
+    "instagram": "",
+    "ogp": "https://devrel.tokyo/japan-2022/assets/images/socials/otani.jpg"
   },
   {
     "id": "hideki",
@@ -18,12 +20,14 @@
     "name": "小島 英揮",
     "title": "パラレルマーケター /Still Day One合同会社 代表社員 / CMC_Meetup主宰",
     "profile": "ITのB2Bマーケティングで30年近いキャリアを持つ。2009~2016年に、AWSで日本のマーケティングを統括、日本最大のクラウドユーザーコミュニティJAWS‐UGの立ち上げに携わる。2017年より決済、AIなど国内外の複数の企業でパラレルマーケターとして活動中\n著書に「ビジネスも人生もグロースさせる コミュニティマーケティング」（日本実業出版社）、共著に「DevRel エンジニアフレンドリーになるための3C」（翔泳社）。",
+    "session": "marketer",
     "twitter": "https://twitter.com/hide69oz",
     "facebook": "https://www.facebook.com/hideki.ojima",
     "web": "",
     "linkedin": "",
     "github": "",
-    "instagram": ""
+    "instagram": "",
+    "ogp": "https://devrel.tokyo/japan-2022/assets/images/socials/hideki.jpg"
   },
   {
     "id": "nick",
@@ -31,12 +35,14 @@
     "name": "長内毅志",
     "title": "ERP推進部APIプラットフォーム室",
     "profile": "・日経225 の 50％ を超える企業に利用される ウェブシステムのプロダクトマネージャー、マーケティング\n・39万事業所が利用する日本有数のSaaS企業のプラットフォーム事業のマーケティング、新規事業\n\nプラットフォームビジネスのセールスエンジニアリング・マーケティング、特にエコシステム構築を担当。\n\n専門領域は プリセールス/セールスエンジニア、DevRel/ディベロッパーアドボケイト、コミュニティマーケティング。\n",
+    "session": "saas",
     "twitter": "https://twitter.com/Nick_smallworld",
     "facebook": "",
     "web": "https://qiita.com/TakeshiNickOsanai",
     "linkedin": "",
     "github": "",
-    "instagram": ""
+    "instagram": "",
+    "ogp": "https://devrel.tokyo/japan-2022/assets/images/socials/nick.jpg"
   },
   {
     "id": "simon",
@@ -44,12 +50,14 @@
     "name": "佐々木 志門",
     "title": "Project Manager, Consultant",
     "profile": "IBM iX ラインマネージャー。DX推進を先進テクノロジーでアジャイルに支援するディベロッパー・デザイナーを擁するDX Firmチームをリード。Developer Advocateでのコンサルティング経験を活かして、現在はIBM Consulting インタラクティブ・エクスペリエンスにて製造業のお客様を中心にDXを推進中。グッドデザイン賞2021をディレクターとして受賞。",
+    "session": "former_evangelist",
     "twitter": "https://twitter.com/simontokyo",
     "facebook": "",
     "web": "",
     "linkedin": "https://www.linkedin.com/in/simontokyo/",
     "github": "",
-    "instagram": ""
+    "instagram": "",
+    "ogp": "https://devrel.tokyo/japan-2022/assets/images/socials/simon.jpg"
   },
   {
     "id": "shotaro",
@@ -57,12 +65,14 @@
     "name": "鈴木 章太郎",
     "title": "テクニカルプロダクトマーケティングマネージャー/エバンジェリスト",
     "profile": "Elastic テクニカルプロダクトマーケティングマネージャー/エバンジェリスト。日本マイクロソフトで、テクニカルエバンジェリストとして、.NET、Visual Studio、Windows、iOS、Android、Microsoft Azure 等の開発者向け技術啓発活動を13年にわたり担当。Dell、Accenture 等を経て、Elastic で開発者向け技術啓発活動に携わる。デジタル庁省庁業務グループソリューションアーキテクトを兼務。",
+    "session": "former_evangelist",
     "twitter": "https://twitter.com/shosuz",
     "facebook": "https://www.facebook.com/shosuz/ ",
     "web": "",
     "linkedin": "https://www.linkedin.com/in/shotaro-suzuki-5ab0b719/",
     "github": "",
-    "instagram": ""
+    "instagram": "",
+    "ogp": "https://devrel.tokyo/japan-2022/assets/images/socials/shotaro.jpg"
   },
   {
     "id": "daizen",
@@ -70,12 +80,14 @@
     "name": "池原大然",
     "title": "Developer Evangelist",
     "profile": ".NETエンジニアとしてキャリアをスタートし、その後約12年間外資系UIコンポーネントベンダーにおいてサポート、エバンジェリスト、プリセールス、マーケティングなどを歴任。\n\n2019年10月よりTwilioに参画し、デベロッパーエバンジェリストとして日本・APAC地域の開発者リレーションを担当。趣味は長距離の散歩とドラクエウォーク、FF14。",
+    "session": "saas",
     "twitter": "https://twitter.com/neri78",
     "facebook": "",
     "web": "",
     "linkedin": "https://www.linkedin.com/in/daizenikehara/",
     "github": "",
-    "instagram": ""
+    "instagram": "",
+    "ogp": "https://devrel.tokyo/japan-2022/assets/images/socials/daizen.jpg"
   },
   {
     "id": "nagai",
@@ -83,12 +95,14 @@
     "name": "永井裕二",
     "title": "ERP推進部　APIプラットフォーム室長",
     "profile": "2007年、モーニングスター株式会社（SBIグループ）へ入社。以降12年半、営業、新規事業、システム開発の経験を積み、2020年、freee株式会社にジョイン。現在は、freeeのPublic APIと他システムを連携させることで「クラウドERP」を実現すべく、各種施策を推進中。",
+    "session": "team_management",
     "twitter": "",
     "facebook": "https://www.facebook.com/yuji.nagai.94",
     "web": "",
     "linkedin": "",
     "github": "",
-    "instagram": ""
+    "instagram": "",
+    "ogp": "https://devrel.tokyo/japan-2022/assets/images/socials/nagai.jpg"
   },
   {
     "id": "gyori",
@@ -96,12 +110,14 @@
     "name": "永淵 ぎょり",
     "title": "Director of Revenue Japan",
     "profile": "Physical computing専攻。新卒でクラウドインテグレーターに参画し、セールス、マーケティング、PRとして従事。その後、AIベンチャーで2年間日本最大級のAIカンファレンスをリード。Deep Learningの開発者、運用者のためのプロダクトのマーケティングに携わる。2019年11月に「テスト自動化プラットフォーム」を開発、提供するオーティファイにジョイン。長くディベロッパー向けのプロダクトのマーケターとして従事する。 \n共著「Amazon Web Services実践入門 WEB+DB PRESS plus」。",
+    "session": "marketer",
     "twitter": "https://twitter.com/Nagafuchik",
     "facebook": "https://www.facebook.com/gyori.n",
     "web": "",
     "linkedin": "",
     "github": "https://github.com/Gyori",
-    "instagram": ""
+    "instagram": "",
+    "ogp": "https://devrel.tokyo/japan-2022/assets/images/socials/gyori.jpg"
   },
   {
     "id": "bb",
@@ -109,12 +125,14 @@
     "name": "BB（大竹遼）",
     "title": "エンジニア",
     "profile": "株式会社ジョイゾーにて、目の前でkintoneのシステムを作る対面開発「システム39」のエンジニアをしています。システム開発の他、プログラム開発やセミナー登壇なども行っています。元サイボウズのテクニカルエバンジェリスト。",
+    "session": "former_evangelist",
     "twitter": "https://twitter.com/ryotkbb",
     "facebook": "https://www.facebook.com/ryotkbb/",
     "web": "",
     "linkedin": "https://www.linkedin.com/in/ryotkbb/",
     "github": "",
-    "instagram": ""
+    "instagram": "",
+    "ogp": "https://devrel.tokyo/japan-2022/assets/images/socials/bb.jpg"
   },
   {
     "id": "wataru",
@@ -122,12 +140,14 @@
     "name": "山崎 亘",
     "title": "プロダクト マーケティング マネージャー",
     "profile": "日本オラクル株式会社で、開発ツール製品マーケティング、サービス マーケティング、開発者向けマーケティングを20年にわたり担当し、製品企画から営業支援、顧客向けマーケティングなど多岐に渡り活動。\n\n株式会社ウフルでは、ローコード/ノーコード開発ツール製品「enebular」の製品マーケティングとDevRelを担当。Web、ソーシャル メディア、イベント、ユーザーコミュニティなどを使った活動を通し、担当製品の普及、浸透を目指す。\n\nDevRelJp Meetupコミュニティでは、2019年から連続した複数の年次カンファレンスの登壇や、毎月開催のミートアップに参加および登壇。",
+    "session": "marketer",
     "twitter": "https://twitter.com/wyamazak",
     "facebook": "https://www.facebook.com/wyamazak",
     "web": "",
     "linkedin": "https://www.linkedin.com/in/wyamazak/",
     "github": "",
-    "instagram": ""
+    "instagram": "",
+    "ogp": "https://devrel.tokyo/japan-2022/assets/images/socials/wataru.jpg"
   },
   {
     "id": "funaki",
@@ -135,12 +155,14 @@
     "name": "舟木将彦",
     "title": "Principal Developer Advocate",
     "profile": "日系＋米国系IT企業でプロダクト開発、その後、独系＋米国系企業でコンサルティングに携わる中で、ビジネスを創る人間と技術で実装する人間が（空中戦でなく）手を動かして継続的に進化可能な「動くプロト」をベースに議論する必要性を実感し、CI/CDプラットフォームであるCircleCIのDeveloper Advocateとして活動中。",
+    "session": "saas",
     "twitter": "https://twitter.com/mfunaki",
     "facebook": "",
     "web": "",
     "linkedin": "https://www.linkedin.com/in/mfunaki/",
     "github": "",
-    "instagram": ""
+    "instagram": "",
+    "ogp": "https://devrel.tokyo/japan-2022/assets/images/socials/funaki.jpg"
   },
   {
     "id": "sasaki",
@@ -148,12 +170,14 @@
     "name": "佐々木 大樹",
     "title": "企画／マーケティング担当",
     "profile": "スマートフォンアプリ／Web制作プロダクションの営業を経て、2017年に富士通クラウドテクノロジーズ株式会社に入社。\n入社後は、「ニフクラ mobile backend」の企画／販促／営業を担当した後、DevRel、Web/リーフレット等のデザイン、インナーコミュニケーション組織の立ち上げなどを担当。",
+    "session": "marketer",
     "twitter": "https://www.facebook.com/hiroki.sasaki.980/",
     "facebook": "",
     "web": "",
     "linkedin": "",
     "github": "",
-    "instagram": ""
+    "instagram": "",
+    "ogp": "https://devrel.tokyo/japan-2022/assets/images/socials/sasaki.jpg"
   },
   {
     "id": "terada",
@@ -161,12 +185,14 @@
     "name": "寺田 正弘",
     "title": "クラウド事業本部 企画推進部 副部長",
     "profile": "広告代理店、インターネット事業会社のデザイナーを経て、2015年にさくらインターネット株式会社入社。入社後は広報宣伝部門やデザイン部門を経て2020より現職。社内のデザイン業務全般、Web制作・マーケティング、オウンドメディア、自社イベントを統括。",
+    "session": "team_management",
     "twitter": "https://twitter.com/MasahiroTrd",
     "facebook": "",
     "web": "",
     "linkedin": "",
     "github": "",
-    "instagram": ""
+    "instagram": "",
+    "ogp": "https://devrel.tokyo/japan-2022/assets/images/socials/terada.jpg"
   },
   {
     "id": "hosaka",
@@ -174,12 +200,14 @@
     "name": "ほさかなお",
     "title": "イラストレーター、漫画家",
     "profile": "ほさかなお\n1996年東京都生まれ。\n企業でUIデザイナーを経験後フリーランスとなり、バレットプレスやworkship magazineなどのWebメディアに漫画を連載。書籍のイラストなども担当。その他にも、情報教科書カット監修、プログラミング教材制作など、ITリテラシーを活かしたイラストレーターとして活動中。また、20代でありながらレトロカルチャーやロストテクノロジーを追求している。 \n\n- 【workship magazine】 [https://goworkship.com/magazine/author/hosakanao/](https://goworkship.com/magazine/author/hosakanao/)\n- 【valed.press】[https://valed.press/tag/kathakatago-no-shusu/](https://valed.press/tag/kathakatago-no-shusu/)\n- 【書籍】[https://gihyo.jp/book/2021/978-4-297-11892-1](https://gihyo.jp/book/2021/978-4-297-11892-1)",
+    "session": "manga",
     "twitter": "",
     "facebook": "",
     "web": "",
     "linkedin": "",
     "github": "",
-    "instagram": ""
+    "instagram": "",
+    "ogp": "https://devrel.tokyo/japan-2022/assets/images/socials/hosaka.jpg"
   },
   {
     "id": "chomado",
@@ -187,12 +215,14 @@
     "name": "千代田まどか (ちょまど)",
     "title": "Cloud Developer Advocate",
     "profile": "ITエンジニア兼マンガ家。Twitter (@chomado) ではフォロワー約 10 万人。大学(英文科)を卒業後、新卒で入った大手 SIer を (プログラミングする機会が無かったため) 3ヶ月で辞め、翌週モバイルアプリ開発者としてスタートアップに転職。現在マイクロソフト米国本社チームで Developer Relations の仕事をしている。マンガ家としての作品は『はしれ！コード学園』や『マンガでわかる外国人との働き方』、2021年内閣サイバーセキュリティセンター『ラブライブ！サンシャイン!!』コラボ公式パンフレットを描いたりした。",
+    "session": "manga",
     "twitter": "https://twitter.com/chomado",
     "facebook": "",
     "web": "",
     "linkedin": "",
     "github": "",
-    "instagram": "https://www.instagram.com/chomado/"
+    "instagram": "https://www.instagram.com/chomado/",
+    "ogp": "https://devrel.tokyo/japan-2022/assets/images/socials/chomado.jpg"
   },
   {
     "id": "llminatoll",
@@ -200,12 +230,14 @@
     "name": "湊川あい",
     "title": "IT漫画家",
     "profile": "IT漫画家。マンガと図解で、技術をわかりやすく伝えることが好き。\n著書『わかばちゃんと学ぶ』シリーズが発売中のほか、マンガでわかるGit・マンガでわかるDocker・マンガでわかるRubyといった分野横断的なコンテンツを展開している。",
+    "session": "manga",
     "twitter": "https://twitter.com/llminatoll",
     "facebook": "",
     "web": "https://note.com/llminatoll",
     "linkedin": "",
     "github": "",
-    "instagram": ""
+    "instagram": "",
+    "ogp": "https://devrel.tokyo/japan-2022/assets/images/socials/llminatoll.jpg"
   },
   {
     "id": "yugoes1021",
@@ -213,12 +245,14 @@
     "name": "清水 優吾",
     "title": "Power BI 王子 (Power BI MVP)",
     "profile": "大学卒業後、未経験から .NET 系開発者としてソフトハウス → ITコンサルティング会社 → フリーランス → メーカー系SIer を経験。テクニカルアーキテクト。2022 年 7 月からフリーランスとして活動中。\n2017 年 2 月に Microsoft MVP for Data Platform - Power BI を初受賞 (現在 6 回更新中)。Power BI 王子として認知されている。\n\n2021 年 9 月、「Microsoft Power BI入門」(翔泳社)を出版。\n\n最近の仕事は Power BI をエンドユーザーへ訴求 (レクチャー、研修、コンサルティング等) すること。コミュニティ活動と仕事の両面で行っている。",
+    "session": "broadcasting",
     "twitter": "https://twitter.com/yugoes1021",
     "facebook": "https://www.facebook.com/yugoes1021",
     "web": "",
     "linkedin": "https://www.linkedin.com/in/yugoes1021/",
     "github": "",
-    "instagram": ""
+    "instagram": "",
+    "ogp": "https://devrel.tokyo/japan-2022/assets/images/socials/yugoes1021.jpg"
   },
   {
     "id": "kitazaki",
@@ -226,12 +260,14 @@
     "name": "野良ハック（ざっきー）",
     "title": "",
     "profile": "趣味でモノづくり活動やIoTLTコミュニティで放送部活動を行なっています。",
+    "session": "broadcasting",
     "twitter": "https://twitter.com/Zakkiea",
     "facebook": "https://www.facebook.com/ayachika.kitazaki",
     "web": "",
     "linkedin": "",
     "github": "",
-    "instagram": ""
+    "instagram": "",
+    "ogp": "https://devrel.tokyo/japan-2022/assets/images/socials/kitazaki.jpg"
   },
   {
     "id": "shindoy",
@@ -239,12 +275,14 @@
     "name": "新藤洋介",
     "title": "",
     "profile": "シリコンバレーITスタートアップの日本市場立ち上げを数社歴任し、2020年ライブ配信ユニット「天神放送局」を結成。200件を超えるコミュニティー向けライブ配信イベントに関わる。オンラインでのコミュニケーションのあり方について日々、考えを巡らせている。",
+    "session": "broadcasting",
     "twitter": "https://twitter.com/shindoy",
     "facebook": "",
     "web": "",
     "linkedin": "",
     "github": "",
-    "instagram": ""
+    "instagram": "",
+    "ogp": "https://devrel.tokyo/japan-2022/assets/images/socials/shindoy.jpg"
   },
   {
     "id": "htakei",
@@ -252,12 +290,14 @@
     "name": "武居 秀和",
     "title": "",
     "profile": "クリエイターと共に技術を楽しむイベントである「Hack Day」を2007年に立ち上げ、以来、社内外のクリエイターコミュニティ形成に従事。 2018年 Developer Relations 組織の立ち上げからは、ヤフー主催のコミュニティ活動全体の責任者。2019年からは、Developer Relations 施策全体の統括を担当。",
+    "session": "team_management",
     "twitter": "https://twitter.com/takewick",
     "facebook": "",
     "web": "",
     "linkedin": "",
     "github": "",
-    "instagram": ""
+    "instagram": "",
+    "ogp": "https://devrel.tokyo/japan-2022/assets/images/socials/htakei.jpg"
   },
   {
     "id": "terao",
@@ -265,12 +305,14 @@
     "name": "寺尾 英作",
     "title": "技術マーケティング担当",
     "profile": "ソフトバンクで技術情報のアウトプットを推進する技術マーケティングを担当。\n社外向け勉強会 SB Tech Night ( https://sbtechnight.connpass.com/ ) 、社内向け勉強会 テクシバ、テックブログ クラウドテクノロジーブログ ( https://www.softbank.jp/biz/blog/cloud-technology/ ) などを運営している。",
+    "session": "enterprise_community",
     "twitter": "https://twitter.com/eterao",
     "facebook": "",
     "web": "",
     "linkedin": "",
     "github": "",
-    "instagram": ""
+    "instagram": "",
+    "ogp": "https://devrel.tokyo/japan-2022/assets/images/socials/terao.jpg"
   },
   {
     "id": "takanori",
@@ -278,12 +320,14 @@
     "name": "緑川たかのり",
     "title": "CTO室",
     "profile": "元技術系書籍の編集者。プライベートではPearbookという名目で書籍や漫画を刊行。その後クックパッド株式会社CTO室内で技術広報に従事。",
+    "session": "manga",
     "twitter": "https://twitter.com/techfavo",
     "facebook": "",
     "web": "",
     "linkedin": "",
     "github": "",
-    "instagram": ""
+    "instagram": "",
+    "ogp": "https://devrel.tokyo/japan-2022/assets/images/socials/takanori.jpg"
   },
   {
     "id": "taiji",
@@ -291,12 +335,14 @@
     "name": "萩野たいじ",
     "title": "Lead Community Manager/Developer Advocate",
     "profile": "OutSystemsのLead Community Manager 兼 Developer Advocate  元美容師で元音楽家。ソフトウェアエンジニアへ転身後、受託開発やパッケージ開発の経験を活かし有限会社アキュレートシステムを起業。その後、商社系SIerを経て、IBM Globalチームにて、Developer Advocateとして技術者へリーチしたマーケティング、DevRel（Developer Relations）を展開。現在はOutSystemsでコミュニティマーケティング、Developer Relationsに従事。筑波大学情報学群にて非常勤講師も務める。 \n\n著書に「はじめてのNode-RED」「Node-RED活用マニュアル」「Practical Node-RED Programming」「開発者マーケティング DevRel Q&A」「英語で広がる開発者のキャリア」など",
+    "session": "enterprise_community",
     "twitter": "https://twitter.com/taiponrock/",
     "facebook": "https://www.facebook.com/taiponrock/",
     "web": "",
     "linkedin": "https://www.linkedin.com/in/taiponrock/",
     "github": "https://github.com/taijihagino/",
-    "instagram": ""
+    "instagram": "",
+    "ogp": "https://devrel.tokyo/japan-2022/assets/images/socials/taiji.jpg"
   },
   {
     "id": "noel",
@@ -304,12 +350,14 @@
     "name": "山田 寛",
     "title": "Splunk Advocate",
     "profile": "あらゆるログを可視化するツール、Splunk.その日本人MVP第1号です。ユーザーコミュニティもグローバルで活動しており、日本リージョンは後発ですが世界トップの規模となりました。2022年にはCOMMUNITY MVPにも選ばれました。コミュニティ活動を通じて、セキュリティというデリケートな分野で利用事例やTipsなどの技術交流、運用課題の解決の場を提供しています。",
+    "session": "enterprise_community",
     "twitter": "https://twitter.com/yamadanoel",
     "facebook": "",
     "web": "",
     "linkedin": "",
     "github": "",
-    "instagram": ""
+    "instagram": "",
+    "ogp": "https://devrel.tokyo/japan-2022/assets/images/socials/noel.jpg"
   },
   {
     "id": "sakai",
@@ -317,12 +365,14 @@
     "name": "酒井真弓",
     "title": "アンバサダー",
     "profile": "日本初となるGoogle Cloud公式エンタープライズユーザー会「Jagu'e'r（ジャガー）」のアンバサダー。ノンフィクションライター、広報、イベント企画、マネージャーとして、行政から民間まで幅広く記事執筆、企画運営に奔走。著書『ルポ 日本のDX最前線』 （集英社インターナショナル） 、『DXを成功に導くクラウド活用推進ガイド CCoEベストプラクティス』（日経BP）、『なぜ九州のホームセンターが国内有数のDX企業になれたか』（ダイヤモンド社）",
+    "session": "enterprise_community",
     "twitter": "https://twitter.com/sakaisaketen",
     "facebook": "https://www.facebook.com/sakai.mayumi.96",
     "web": "https://jaguer.jp/",
     "linkedin": "",
     "github": "",
-    "instagram": ""
+    "instagram": "",
+    "ogp": "https://devrel.tokyo/japan-2022/assets/images/socials/sakai.jpg"
   },
   {
     "id": "aya",
@@ -330,12 +380,14 @@
     "name": "戸倉彩",
     "title": "カスタマーサクセス部長",
     "profile": "2018年5月に日本IBM入社、セミナーやイベント登壇、授業講師、執筆活動を通じてクラウドネイティブアプリ開発や開発ツールの技術啓蒙を行っている。現在、カスタマーサクセス部長としてエンジニアチームマネジメントやビジネス案件の技術支援なども遂行。",
+    "session": "team_management",
     "twitter": "https://twitter.com/ayatokura",
     "facebook": "",
     "web": "",
     "linkedin": "https://www.linkedin.com/in/ayatokura/",
     "github": "",
-    "instagram": ""
+    "instagram": "",
+    "ogp": "https://devrel.tokyo/japan-2022/assets/images/socials/aya.jpg"
   },
   {
     "id": "tsuruta",
@@ -343,12 +395,14 @@
     "name": "鶴田啓",
     "title": "Applications Engineer / Developer Relations",
     "profile": "楽天グループ株式会社ラクマ事業部にて Applications Engineer として働く傍ら、Developer Relations にも従事。オウンドメディア運営、イベント協賛、技術書執筆、採用活動など多岐に渡って活動している。コミュニティにおいては、iOSDC、DroidKaigi などのモバイル開発向けのカンファレンスで登壇し、技術発信に努めている。",
+    "session": "new_bee",
     "twitter": "https://twitter.com/hcrane14",
     "facebook": "https://www.facebook.com/tsuruta.hiromu/",
     "web": "",
     "linkedin": "",
     "github": "",
-    "instagram": ""
+    "instagram": "",
+    "ogp": "https://devrel.tokyo/japan-2022/assets/images/socials/tsuruta.jpg"
   },
   {
     "id": "atsushi",
@@ -356,12 +410,14 @@
     "name": "中津川篤司",
     "title": "CEO",
     "profile": "株式会社MOONGIFT代表取締役。ニフクラ mobile backend、hifive 、CloudGarage エバンジェリスト。プログラマ、エンジニアとしていくつかの企業で働き、28歳のときに独立。2004年、まだ情報が少なかったオープンソースソフトの技術ブログ『MOONGIFT』を開設し、毎日情報を発信している。2013年に法人化、ビジネスとエンジニアを結ぶエバンジェリスト業「DevRel」活動をスタートした。ソーシャルIDはすべて goofmint。",
+    "session": "new_bee",
     "twitter": "https://twitter.com/goofmint",
     "facebook": "https://fb.me/goofmint",
     "web": "https://devrel.jp/",
     "linkedin": "https://www.linkedin.com/in/goofmint/",
     "github": "https://github.com/goofmint",
-    "instagram": ""
+    "instagram": "",
+    "ogp": "https://devrel.tokyo/japan-2022/assets/images/socials/atsushi.jpg"
   },
   {
     "id": "matsushita",
@@ -369,12 +425,14 @@
     "name": "松下享平",
     "title": "テクノロジー・エバンジェリスト",
     "profile": "IoTの活用事例やライブデモを通じて、IoTの普及とSORACOMの利用を促進をする講演や執筆活動を担当。Linuxサーバーメーカーにて情報システムやEC事業を経て、2015年にはIoTの事業開発をリードしてメガクラウドとの協業や、省電力通信による先駆的なIoT事例に関わる。2017年3月より現職、登壇回数は延べ500以上。共著に『IoTエンジニア養成読本』（技術評論社）等。",
+    "session": "saas",
     "twitter": "https://twitter.com/ma2shita",
     "facebook": "https://fb.com/ma2shita",
     "web": "",
     "linkedin": "",
     "github": "",
-    "instagram": ""
+    "instagram": "",
+    "ogp": "https://devrel.tokyo/japan-2022/assets/images/socials/matsushita.jpg"
   },
   {
     "id": "kawamata",
@@ -382,12 +440,14 @@
     "name": "河又 涼",
     "title": "Forkwell DevRelチーム イベントプロデューサー",
     "profile": "株式会社grooves Forkwell DevRelチーム イベントプロデューサー\n日系大手メーカー勤務を経て2017年に株式会社groovesに入社。エンジニア採用支援サービスの「Forkwell Jobs」の営業を務めたのちに2021年に発足したてのDevRelチームに異動。主に企業共催イベントの企画運営や独自開催シリーズの「Forkwell Library」の企画運営を務める。\n代表的な主担イベントは『チームトポロジーを成功させる実践方法の探求 - Team Topologies Study』や『TEST Study #1「品質とスピード」』",
+    "session": "new_bee",
     "twitter": "https://twitter.com/r_kawamata",
     "facebook": "",
     "web": "",
     "linkedin": "",
     "github": "",
-    "instagram": ""
+    "instagram": "",
+    "ogp": "https://devrel.tokyo/japan-2022/assets/images/socials/kawamata.jpg"
   },
   {
     "id": "hikaru",
@@ -395,12 +455,14 @@
     "name": "丸山 ひかる",
     "title": "Technical Translator",
     "profile": "独立系ソフトウェア開発会社でWeb APIの開発に携わったのちに、テクニカルエバンジェリストとしてプロダクトの普及に貢献。現在はDrupalを基盤としたエンタープライズ向けCMSプラットフォームを提供するAcquia（アクイア）でウェブサイトのコンテンツの技術翻訳やローカライズを担当。CodeZineで「Drupal 9で始めるWebサイト開発入門」執筆。趣味は山登りとキャンプ飯。",
+    "session": "document",
     "twitter": "https://twitter.com/maruyamahiakru",
     "facebook": "",
     "web": "",
     "linkedin": "",
     "github": "",
-    "instagram": ""
+    "instagram": "",
+    "ogp": "https://devrel.tokyo/japan-2022/assets/images/socials/hikaru.jpg"
   },
   {
     "id": "arisa",
@@ -408,12 +470,14 @@
     "name": "福﨑 有彩",
     "title": "Developer Relations Engineer",
     "profile": "元エミレーツ航空客室乗務員。2017年に独学でフロントエンドエンジニアとして開発業務を始め、3つのプログラミングスクールでメンター講師を勤める。GatsbyConf 2021で初登壇し、現在はドイツからフルリモートで、オーストリア発祥SaaSスタートアップ企業、ヘッドレスCMSのStoryblokでDeveloper Relations Engineerをしている。GirlCodeアンバサダー、GDE (Google Developer Expert)でもあり、プライベートでは合気道、スノーボード、ロングボードが好き。",
+    "session": "new_bee",
     "twitter": "https://twitter.com/arisa_dev",
     "facebook": "",
     "web": "https://arisa-fukuzaki.dev/",
     "linkedin": "https://de.linkedin.com/in/%F0%9F%A5%8B-arisa-fukuzaki-b68b51a8",
     "github": "https://github.com/schabibi1",
-    "instagram": ""
+    "instagram": "",
+    "ogp": "https://devrel.tokyo/japan-2022/assets/images/socials/arisa.jpg"
   },
   {
     "id": "nakanishi",
@@ -421,12 +485,14 @@
     "name": "中西 太郎",
     "title": "",
     "profile": "2022年、エンジニアとして株式会社ワンキャリアに入社。\nQuality AssuranceチームとDeveloper Relationsチームの立ち上げを任され、組織体制を整備しながら、テスト業務やテックブログのディレクションに従事している。最近はエンジニア採用業務も兼務。\n\n趣味はボードゲームと寺社仏閣巡り。",
+    "session": "new_bee",
     "twitter": "https://twitter.com/nana_nigiiro",
     "facebook": "",
     "web": "",
     "linkedin": "",
     "github": "",
-    "instagram": ""
+    "instagram": "",
+    "ogp": "https://devrel.tokyo/japan-2022/assets/images/socials/nakanishi.jpg"
   },
   {
     "id": "odasho",
@@ -434,12 +500,14 @@
     "name": "小田祥平（おだしょー）",
     "title": "Developer Marketing Manager / Evangelist",
     "profile": "商社系SIerにて10年程システム開発を経験した後、現在は開発者向けマーケティングを担当。エバンジェリストとしてコミュニティの運営やそのサポート、技術文書の寄稿、YouTuber、学校での講義など様々な活動をしています。DevRel Meetup in Tokyo運営メンバーの1人。",
+    "session": "sier",
     "twitter": "https://twitter.com/MS_odasho",
     "facebook": "https://www.facebook.com/odasho0618",
     "web": "",
     "linkedin": "https://www.linkedin.com/in/odasho/",
     "github": "",
-    "instagram": ""
+    "instagram": "",
+    "ogp": "https://devrel.tokyo/japan-2022/assets/images/socials/odasho.jpg"
   },
   {
     "id": "yasunori",
@@ -447,12 +515,14 @@
     "name": "木原 康智",
     "title": "",
     "profile": "Minittというスタートアップ企業で「データプライバシー」領域のプロダクトに携わっています。最近はプロダクトのコンセプトやユースケースを紹介するドキュメントを書いています。過去にはプログラマー経験後、サーバー監視サービスや印刷APIプラットフォームのセールス・マーケティングを担当しました。コミュニティを通じてプロダクトを広める活動が好きです。",
+    "session": "sponsors",
     "twitter": "https://twitter.com/yasunori_k_",
     "facebook": "https://www.facebook.com/ysnrk",
     "web": "",
     "linkedin": "https://www.linkedin.com/in/ysnrkr/",
     "github": "",
-    "instagram": ""
+    "instagram": "",
+    "ogp": "https://devrel.tokyo/japan-2022/assets/images/socials/yasunori.jpg"
   },
   {
     "id": "akari",
@@ -460,12 +530,14 @@
     "name": "宮内あかり",
     "title": "GG Voice & Action代表/bgrass株式会社sister事業立上げ担当",
     "profile": "大阪デザイナー専門学校イラストレーション学科デジタルイラストレーションコース 卒業。\nイラストとデザインが得意で、NotionやCanvaで色々つくることが好きです。\n\n2015年からデザイン関係の仕事を中心に活動していましたが、2020年7月にIT企業に転職。\n現在は任意団体『GG Voice & Action』の代表をしながら、bgrass株式会社の立ち上げと、同社のテック業界の女性向け相談支援プラットフォーム『sister』の運営に携わっています。\n\n他にも、Zennで記事を書いたり各種イベントで登壇をしたりと、幅広く活動中です。",
+    "session": "document",
     "twitter": "https://twitter.com/akari_myuc",
     "facebook": "",
     "web": "https://zenn.dev/miya_akari",
     "linkedin": "",
     "github": "",
-    "instagram": ""
+    "instagram": "",
+    "ogp": "https://devrel.tokyo/japan-2022/assets/images/socials/akari.jpg"
   },
   {
     "id": "aguri",
@@ -473,12 +545,14 @@
     "name": "おおつかあぐり",
     "title": "UXライター",
     "profile": "老舗実用系出版社にて、女性誌編集ならびに事業開発に従事。2013年にグローバルデジタルエージェンシーに転職後は、コンテンツディレクションと情報設計のスキルを生かして、 大手企業のマーケティング支援に携わる。2020年3月、株式会社SmartHRにヘルプセンターのコンテンツ編集として入社。 まだまだカオスだった社内で、SmartHRのバリューの一つ「一語一句に手間ひまかける」を体現し、あちこちで言語化を手伝っていたら、UXライターに。",
+    "session": "document",
     "twitter": "https://twitter.com/aguringo",
     "facebook": "",
     "web": "https://note.com/aguri",
     "linkedin": "",
     "github": "https://github.com/aguringo",
-    "instagram": ""
+    "instagram": "",
+    "ogp": "https://devrel.tokyo/japan-2022/assets/images/socials/aguri.jpg"
   },
   {
     "id": "piyo",
@@ -486,12 +560,14 @@
     "name": "ぴよ",
     "title": "テクニカルライター",
     "profile": "2019年にサイボウズ株式会社に入社。ヘルプサイトや開発者ドキュメントサイトの運営を担当。それまでは教員→システムエンジニア。",
+    "session": "document",
     "twitter": "https://twitter.com/_chick_p",
     "facebook": "",
     "web": "",
     "linkedin": "",
     "github": "",
-    "instagram": ""
+    "instagram": "",
+    "ogp": "https://devrel.tokyo/japan-2022/assets/images/socials/piyo.jpg"
   },
   {
     "id": "kojima",
@@ -499,12 +575,14 @@
     "name": "小島 優介",
     "title": "エンジニアリングマネージャー",
     "profile": "30代後半から発信活動を始めて人生が楽しくなりました。\n「ハピネスチームビルディング」と名付けた活動を通して、皆が楽しく開発できるための知見を発信しています。\n主な活動実績は次の通りです。デブサミ2020関西でベストスピーカー賞1位受賞、Microsoft Build 2022で発表、ITエンジニア向けの月刊誌「Software Design」2022年4月号より連載中、「Serverless LT初心者向け」というコミュニティを運営。",
+    "session": "sier",
     "twitter": "https://twitter.com/kojimadev",
     "facebook": "https://www.facebook.com/yusuke.kojima.5070",
     "web": "",
     "linkedin": "",
     "github": "",
-    "instagram": ""
+    "instagram": "",
+    "ogp": "https://devrel.tokyo/japan-2022/assets/images/socials/kojima.jpg"
   },
   {
     "id": "kizawa",
@@ -512,12 +590,14 @@
     "name": "木澤 朋隆",
     "title": "ITスペシャリスト",
     "profile": "各種Webシステムのインフラ構築や自社クラウド開発などでキャリアを積んだ後、現在はAWSを中心としたクラウドアーキテクトや各種プロモーション、社内の開発者支援活動などを担当。\n「クラウドに強いSCSK」を目指し社内でのコミュニティ活動を主宰し、2021年に自社エンジニアブログ「TechHarmony」を立ち上げ。\n\n2022 AWS Partner Ambassador / APN AWS Top Engineer / APN ALL AWS Certifications Engineer\nSORACOM User Group運営メンバー",
+    "session": "sier",
     "twitter": "https://twitter.com/kizawa2020",
     "facebook": "",
     "web": "https://kizawa.info/",
     "linkedin": "https://www.linkedin.com/in/kizawa2020/",
     "github": "",
-    "instagram": ""
+    "instagram": "",
+    "ogp": "https://devrel.tokyo/japan-2022/assets/images/socials/kizawa.jpg"
   },
   {
     "id": "katano",
@@ -525,11 +605,28 @@
     "name": "片野 潤一",
     "title": "エキスパートエンジニア",
     "profile": "SIer に所属する開発系エンジニア。OutSystems 認定トレーナー。\nデベロッパーやアーキテクトとして様々なプロジェクトを経験後、ローコードプラットフォーム製品の推進担当となりました。\nプリセールス、開発支援、トレーニング講師、社内外への技術情報の発信などを行っています。",
+    "session": "sier",
     "twitter": "https://twitter.com/kata_junn/",
     "facebook": "",
     "web": "",
     "linkedin": "https://www.linkedin.com/in/junichi-katano-33a231172",
     "github": "",
-    "instagram": ""
+    "instagram": "",
+    "ogp": "https://devrel.tokyo/japan-2022/assets/images/socials/katano.jpg"
+  },
+  {
+    "id": "miyahara",
+    "company": "株式会社びぎねっと",
+    "name": "宮原徹",
+    "title": "代表取締役社長兼CEO",
+    "profile": "日本オラクル株式会社でのLinux版Oracleのマーケティングに従事後、2001年に株式会社びぎねっとを設立。2004年9月より「オープンソースカンファレンス」を開催し、Linuxをはじめとするオープンソースの普及活動を積極的に行っている。",
+    "session": "broadcasting",
+    "twitter": "https://twitter.com/tmiyahar",
+    "facebook": "https://www.facebook.com/toru.miyahara.29",
+    "web": "",
+    "linkedin": "",
+    "github": "",
+    "instagram": "",
+    "ogp": "https://devrel.tokyo/japan-2022/assets/images/socials/miyahara.jpg"
   }
 ]

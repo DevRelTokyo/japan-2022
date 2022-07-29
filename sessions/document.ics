@@ -6,8 +6,8 @@ BEGIN:VTIMEZONE
 TZID:Asia/Tokyo
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTAMP:20220727T052305Z
-UID:fd849de8-b613-4c99-805a-bd578f5b7358
+DTSTAMP:20220729T103432Z
+UID:ea4e4c14-388a-49e2-abcc-e6960d223497
 DTSTART:20220806T151000
 DTEND:20220806T160500
 DESCRIPTION:トラックB / 15:10〜16:05\n\n🌟 イベント参加用URL\
@@ -18,7 +18,7 @@ DESCRIPTION:トラックB / 15:10〜16:05\n\n🌟 イベント参加用URL\
  アジャパン\n🗣 パネリスト：\n- 宮内あかり@GG Voice & Act
  ion\n- おおつかあぐり@株式会社SmartHR\n- ぴよ@サイボウズ
  株式会社\n
-SUMMARY:わかりやすいドキュメントのためのテクニック（
- 仮） at DevRel/Japan CONFERENCE 2022
+SUMMARY:わかりやすいドキュメントのためのテクニック at 
+ DevRel/Japan CONFERENCE 2022
 END:VEVENT
 END:VCALENDAR

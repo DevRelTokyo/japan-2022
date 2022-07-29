@@ -6,8 +6,8 @@ BEGIN:VTIMEZONE
 TZID:Asia/Tokyo
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTAMP:20220727T052305Z
-UID:e391550b-d703-436a-92e1-2dcab4cfb3df
+DTSTAMP:20220729T103432Z
+UID:cde0cbf9-0ca6-4278-9b44-aa84cbbf058f
 DTSTART:20220806T131000
 DTEND:20220806T140500
 DESCRIPTION:トラックA / 13:10〜14:05\n\n🌟 イベント参加用URL\
@@ -16,7 +16,8 @@ DESCRIPTION:トラックA / 13:10〜14:05\n\n🌟 イベント参加用URL\
  n#DevReljpA\n\n🌟 質問投稿（Sli.do）\nhttps://app.sli.do/event/nRa
  gqiaWQ1koszJjBBn4UM\n  \n🎤 モデレーター：新藤洋介@天神放
  送局\n🗣 パネリスト：\n- 清水 優吾@フリーランス (屋
- 号：PBI Kingdom)\n- 野良ハック（ざっきー）@IoTLT放送部\n
+ 号：PBI Kingdom)\n- 野良ハック（ざっきー）@IoTLT放送部\n- 
+ 宮原徹@株式会社びぎねっと\n
 SUMMARY:配信実践者が語るオンラインコミュニケーション
  で双方向性を高める極意 (仮) at DevRel/Japan CONFERENCE 2022
 END:VEVENT
