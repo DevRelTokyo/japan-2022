@@ -6,8 +6,8 @@ BEGIN:VTIMEZONE
 TZID:Asia/Tokyo
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTAMP:20220729T104325Z
-UID:72243a09-cf26-40db-b2b2-78b9c5a0d573
+DTSTAMP:20220802T003222Z
+UID:70e37a91-35ae-4f0e-a03e-68acf1b1909a
 DTSTART:20220806T171000
 DTEND:20220806T180500
 DESCRIPTION:トラックA / 17:10〜18:05\n\n🌟 イベント参加用URL\
@@ -18,7 +18,7 @@ DESCRIPTION:トラックA / 17:10〜18:05\n\n🌟 イベント参加用URL\
  ）@Microsoft Japan\n🗣 パネリスト：\n- 小島 優介@株式会社
  デンソークリエイト\n- 木澤 朋隆@SCSK株式会社\n- 片野 
  潤一@伊藤忠テクノソリューションズ株式会社\n
-SUMMARY:SIerだからこそDevRel活動をしよう(仮) at DevRel/Japan CO
- NFERENCE 2022
+SUMMARY:SIerだからこそDevRel活動をしよう at DevRel/Japan CONFERE
+ NCE 2022
 END:VEVENT
 END:VCALENDAR
