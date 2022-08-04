@@ -1,0 +1,22 @@
+<section id="jobs-section" class="jobs-section section theme-bg-light">
+	<div class="container">
+		<h3 class="section-heading text-center mb-3">ジョブボード</h3>
+		<div class="section-intro single-col-max mx-auto text-center mb-4">
+			DevRelに関する求人情報を掲載しています。
+		</div>
+		<div class="offers text-center bg-white p-4 p-lg-5">
+			<ul class="offers-list list-unstyled d-inline-block mx-auto text-start">
+        {% for job in site.data.jobs %}
+				  <li>
+            <a href="{{ job.url }}" target="_blank">
+              <span class="icon-holder me-2">
+                <img src="{{ site.baseurl }}/assets/images/sponsors/{{ job.company }}.png" class="img-fluid">
+              </span>
+              {{ job.title }}
+            </a>
+          </li>
+        {% endfor %}
+			</ul><!--offers-list-->
+		</div><!--//offers-->
+  </div>
+</section>

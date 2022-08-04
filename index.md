@@ -12,6 +12,7 @@ layout: home
 {% include speakers.html %}
 {% include schedule.html %}
 {% include tickets.html %}
+{% include jobs.html %}
 {% include venue.html %}
 {% include sponsors.html %}
 {% include organizers.html %}
