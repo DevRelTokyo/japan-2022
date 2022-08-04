@@ -628,5 +628,20 @@
     "github": "",
     "instagram": "",
     "ogp": "https://devrel.tokyo/japan-2022/assets/images/socials/miyahara.jpg"
+  },
+  {
+    "id": "iwasaki",
+    "company": "Okta Japan株式会社",
+    "name": "岩崎 輝之",
+    "title": "ソリューションエンジニアリングマネージャー",
+    "profile": "Okta Japan株式会社にてAuth0を中心としたB2C、B2B向け認証認可基盤のソリューションエンジニアリングチームでプレイングマネージャーをしています。プリセールスをしている関係で外部のイベントでお話したり記事を書いたりもしましたが、チームの人数も増えていよいよ仕事が回らなくなってきたところに、ついに専任のDevRel担当者を採用することになったので、DevRel的な取り組みは後任に託したいなと考えています。",
+    "session": "https://twitter.com/twk",
+    "twitter": "https://drive.google.com/open?id=1Uo4bpcUDG7-SeOVsLJET_eBzr83mjVJq",
+    "facebook": "",
+    "web": "",
+    "linkedin": "https://www.linkedin.com/in/iwasakiteruyuki/?locale=ja_JP",
+    "github": "",
+    "instagram": "",
+    "ogp": ""
   }
 ]
