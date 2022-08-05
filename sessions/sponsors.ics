@@ -6,8 +6,8 @@ BEGIN:VTIMEZONE
 TZID:Asia/Tokyo
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTAMP:20220804T232520Z
-UID:56e35fa1-2cf6-4066-9c24-eb390b340431
+DTSTAMP:20220805T060747Z
+UID:f6eb7f8d-9838-4c6f-a6cd-3413fe5fe50d
 DTSTART:20220806T141000
 DTEND:20220806T150500
 DESCRIPTION:トラックA / 14:10〜15:05\n\n🌟 イベント参加用URL\
@@ -16,7 +16,8 @@ DESCRIPTION:トラックA / 14:10〜15:05\n\n🌟 イベント参加用URL\
  vReljpA\n\n🌟 質問投稿（Sli.do）\nhttps://app.sli.do/event/nRagqia
  WQ1koszJjBBn4UM\n  \n🎤 モデレーター：木原 康智@株式会社M
  initt\n🗣 パネリスト：\n- 中津川篤司@株式会社MOONGIFT\n- 
- 松下享平@株式会社ソラコム\n
+ 松下享平@株式会社ソラコム\n- 岩崎 輝之@Okta Japan株式会
+ 社\n
 SUMMARY:DevRelの取り組み紹介 & DevRelに向いた人物像とは？ 
  at DevRel/Japan CONFERENCE 2022
 END:VEVENT
